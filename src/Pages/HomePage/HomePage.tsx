@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AppBar from '../../AppBar/AppBar';
+import AppBar from '../../components/AppBar/AppBar';
 import WelcomePage from './WelcomePage/WelcomePage';
 
 
