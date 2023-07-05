@@ -1,9 +1,10 @@
 import React from 'react'
 import Avatar from '../Avatar/Avatar';
-import NavBar from '../NavBar/NavBar';
+import NavBar from './NavBar/NavBar';
+import './AppBar.css'
 
 
-const TopMenu = () => { 
+const AppBar = () => { 
     return(
         <div className='top-menu-container'>
             <div className='avatar-container'>
@@ -18,4 +19,4 @@ const TopMenu = () => {
     )
 }
 
-export default TopMenu;
+export default AppBar;

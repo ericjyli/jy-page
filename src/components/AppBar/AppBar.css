@@ -1,0 +1,16 @@
+.top-menu-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.avatar-container {
+    margin-right: 10px; /* Adjust the spacing between the avatar and navbar */
+}
+
+.navbar-container {
+    flex-grow: 1;
+}
+
+.top-menu-container {
+    background-color: lightgray;
+}

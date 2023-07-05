@@ -1,12 +1,14 @@
 import React from 'react'
 
-import TopMenu from '../../TopMenu/TopMenu';
+import AppBar from '../../AppBar/AppBar';
+import WelcomePage from './WelcomePage/WelcomePage';
 
 
 const HomePage = () => {
     return(
         <div className="HomePage">
-            <TopMenu />
+            <AppBar />
+            <WelcomePage />
         </div>
     )
 }
