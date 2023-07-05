@@ -1,0 +1,8 @@
+.avatar-img {
+    display: flex;
+    size: 50%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+
+}
