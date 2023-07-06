@@ -1,6 +1,6 @@
 import React from "react";
 import './WelcomePage.css'
-import Portrait from '../../../components/MyPhoto/MyPhoto'
+import Photo from '../../../components/MyPhoto/MyPhoto'
 
 const WelcomePage = () => {
     return(
@@ -19,7 +19,7 @@ const WelcomePage = () => {
             </h2>
 
             <div className="Portrait-right">
-                <Portrait />
+                <Photo />
 
             </div>
         </div>
