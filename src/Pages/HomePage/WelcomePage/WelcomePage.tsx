@@ -4,8 +4,8 @@ import Photo from '../../../components/MyPhoto/MyPhoto'
 
 const WelcomePage = () => {
     return(
-        <div>
-            <h2 className="welcome-page">
+        <div className="welcome-page">
+            <h2 className="welcome-text">
                 <div className="welcoming">
                     WELCOME TO MY PAGE
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Photo from './Photo.jpg'
+import './MyPhoto.css'
 
 const MyPhoto = () => {
     return(
