@@ -1,5 +1,6 @@
 import React from "react";
 import './WelcomePage.css'
+import Portrait from '../../../components/MyPhoto/MyPhoto'
 
 const WelcomePage = () => {
     return(
@@ -16,6 +17,11 @@ const WelcomePage = () => {
 
                 </div>
             </h2>
+
+            <div className="Portrait-right">
+                <Portrait />
+
+            </div>
         </div>
     )
 }
