@@ -1,21 +1,14 @@
 .welcome-page {
     display: flex;
     justify-content: center;
+    color: white;
 }
   
-/* .welcome-container {
-    display: flex;
-    width: 100%;
-    max-width: 800px; // Adjust the max-width as needed 
-} 
-*/
-
 .welcome-text {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: left;
     padding: 2%;
 }
@@ -25,7 +18,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 
+}
+
+
+.welcome-name {
+    text-align: left;
+    font-size: 5vw;
 }
 
 /* Additional styling as per your requirements */
@@ -35,12 +35,14 @@
 }
 
 .welcome-text .welcome-name {
-    font-size: 20px;
+
     margin-top: 10%;
 }
 
 .welcome-text .detailed-intro {
-    margin-top: 20%;
+    margin-top: 5%;
+    font-size: 3vw;
+    font-weight: bold;
 }
 
 /* Add any other styles as needed */

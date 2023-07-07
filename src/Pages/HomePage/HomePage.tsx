@@ -1,4 +1,5 @@
 import React from 'react'
+import './HomePage.css'
 
 import AppBar from '../../components/AppBar/AppBar';
 import WelcomePage from './WelcomePage/WelcomePage';

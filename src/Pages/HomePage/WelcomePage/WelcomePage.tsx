@@ -5,18 +5,18 @@ import Photo from '../../../components/MyPhoto/MyPhoto'
 const WelcomePage = () => {
     return(
         <div className="welcome-page">
-            <h2 className="welcome-text">
+            <div className="welcome-text">
                 <div className="welcoming">
-                    WELCOME TO MY PAGE
+                    WELCOME TO MY WORLD
                 </div>
-                <div className="welcome-name">
+                <h2 className="welcome-name">
                     Hi, I'm Junyu Li
-                </div>
+                </h2>
                 <div className="detailed-intro">
                     I am currently a third-year student major in Computer Engineering.
 
                 </div>
-            </h2>
+            </div>
 
             <div className="Portrait-right">
                 <Photo />
