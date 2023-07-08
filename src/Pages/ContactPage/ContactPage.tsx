@@ -2,11 +2,11 @@ import React from 'react'
 import AppBar from '../../components/AppBar/AppBar';
 
 
-const ResumePage = () => {
+const ContactPage = () => {
     return(
         <div>   
             <AppBar />
-            <h1>Resume</h1>
+            <h1>Contact</h1>
             
         </div>
         
@@ -14,4 +14,4 @@ const ResumePage = () => {
     )
 }
 
-export default ResumePage;
+export default ContactPage;
