@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.avatar-name-container {
+    text-decoration: none;
+}
+
 .avatar-name {
     margin-left: 10px;
     color: white;

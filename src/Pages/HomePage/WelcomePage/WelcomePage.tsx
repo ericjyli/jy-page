@@ -7,15 +7,15 @@ const WelcomePage = () => {
         <div className="welcome-page">
             <div className="welcome-text">
                 <div className="welcoming">
-                    WELCOME TO MY WORLD
+                    WELCOME TO MY PAGE
                 </div>
                 <h2 className="welcome-name">
                     Hi, I'm Junyu Li
                 </h2>
-                <div className="detailed-intro">
-                    I am currently a third-year student major in Computer Engineering.
-
+                <div className="brief-intro">
+                    Currently a third-year student at University of Toronto
                 </div>
+
             </div>
 
             <div className="Portrait-right">

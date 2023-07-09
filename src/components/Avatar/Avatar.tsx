@@ -8,8 +8,10 @@ const Avatar = () => {
             <a href="/" className="avatar-link">
                 <img className="avatar-img" src={AvatarImage} alt="Avatar"/>
             </a>
-
-            <span className="avatar-name">Junyu Li</span>
+            <a href="/" className="avatar-name-container">
+                <span className="avatar-name">Junyu Li</span>
+            </a>
+            
         </div>
     )
 }
