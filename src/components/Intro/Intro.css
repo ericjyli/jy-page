@@ -1,9 +1,10 @@
-.intro {
-
-}
 
 .intro-name {
     color: white;
     text-align: center;
     
+}
+
+.intro-text {
+    font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
 }

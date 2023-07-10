@@ -28,11 +28,6 @@
     font-size: 5vw;
 }
 
-/* Additional styling as per your requirements */
-.welcome-text .welcoming {
-    font-size: 24px;
-
-}
 
 .welcome-text .welcome-name {
 
@@ -40,9 +35,15 @@
 }
 
 .welcome-text .brief-intro {
-    margin-top: 5%;
-    font-size: 3vw;
+    margin-top: 7%;
+    font-size: 2vw;
     font-weight: bold;
+}
+
+.brief-intro a {
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+
 }
 
 /* Add any other styles as needed */

@@ -2,7 +2,7 @@ import React from 'react'
 import './HomePage.css'
 
 import AppBar from '../../components/AppBar/AppBar';
-import WelcomePage from './WelcomePage/WelcomePage';
+import WelcomePage from '../../components/WelcomeText/WelcomeText';
 
 
 const HomePage = () => {

@@ -1,19 +1,17 @@
 import React from "react";
-import './WelcomePage.css'
-import Photo from '../../../components/MyPhoto/MyPhoto'
+import './WelcomeText.css'
+import Photo from '../MyPhoto/MyPhoto'
 
 const WelcomePage = () => {
     return(
         <div className="welcome-page">
             <div className="welcome-text">
-                <div className="welcoming">
-                    WELCOME TO MY PAGE
-                </div>
                 <h2 className="welcome-name">
                     Hi, I'm Junyu Li
-                </h2>
+                </h2>                
+
                 <div className="brief-intro">
-                    Currently a third-year student at University of Toronto
+                    Feel free to look around and get to know more <a href="/about">about me</a>. You may also want to check out my <a href="/resume">resume</a> and <a href="/experiences">my experiences</a>.
                 </div>
 
             </div>

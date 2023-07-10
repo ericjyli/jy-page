@@ -5,10 +5,13 @@ const Intro = () => {
     return(
         <div className="Intro">
             <h1 className="intro-name">
-                <pre>
+                <pre className="intro-text">
                     Junyu (Eric) Li           李骏宇
                 </pre>
             </h1>
+            <div>
+                
+            </div>
 
         </div>
     )
