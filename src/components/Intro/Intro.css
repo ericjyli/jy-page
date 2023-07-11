@@ -8,3 +8,7 @@
 .intro-text {
     font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.alpaca-intro {
+    display: flex;
+}
