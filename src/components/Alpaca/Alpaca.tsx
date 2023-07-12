@@ -1,5 +1,5 @@
 import React from 'react'
-import AlpacaPic from './Alpaca.jpeg'
+import AlpacaPic from './Alpaca.jpg'
 import './Alpaca.css'
 
 
