@@ -1,5 +1,6 @@
 import React from "react";
 import './Intro.css'
+import Alpaca from "../Alpaca/Alpaca";
 
 const Intro = () => {
     return(
@@ -11,7 +12,7 @@ const Intro = () => {
             </h1>
             <div className="alpaca-intro">
                 <div className="alpaca-pic">
-
+                    <Alpaca />
                 </div>
                 <div className="alpaca-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

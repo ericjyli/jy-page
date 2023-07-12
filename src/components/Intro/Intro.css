@@ -11,4 +11,28 @@
 
 .alpaca-intro {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alpaca-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 3%;
+    margin-left: 1%;
+
+}
+
+.alpaca-text {
+    flex: 1;
+    color: white;
+    width: 50%;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-size: 32px;
+
 }
