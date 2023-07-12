@@ -15,6 +15,8 @@ const Intro = () => {
                     <Alpaca />
                 </div>
                 <div className="alpaca-text">
+                Hi! My name is Junyu (pronounced as jyun-yu) Li. You can also call me Eric. I am currently a third-year student majored in Electrical and Computer Engineering at University of Toronto.
+                I was borned in Shanghai, and I have spent most of my life in Shanghai. I love this city,  
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
