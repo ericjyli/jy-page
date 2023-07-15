@@ -15,11 +15,15 @@ const Intro = () => {
                     <Alpaca />
                 </div>
                 <div className="alpaca-text">
-                Hi! My name is Junyu (pronounced as jyun-yu Li). You can also call me Eric.
-                Besides, my friends called me "alpaca" starting from my primary school, and the nickname has been with me ever since.<br></br> 
-                I am currently a third-year student majored in Electrical and Computer Engineering at University of Toronto.
+                    Hi! My name is Junyu (pronounced as jyun-yu Li). You can also call me Eric.
+                    Besides, my friends called me "alpaca" starting from my primary school, and the nickname has been with me ever since.<br />
+                    I am currently a third-year student majored in Electrical and Computer Engineering at University of Toronto.
   
                 </div>
+            </div>
+
+            <div className="hobbies">
+
             </div>
 
         </div>
