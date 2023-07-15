@@ -20,19 +20,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-right: 3%;
-    margin-left: 1%;
+    width: 40%;
+
 
 }
 
 .alpaca-text {
     flex: 1;
     color: white;
-    width: 50%;
+    width: 60%;
     justify-content: center;
-    margin-left: 3%;
-    margin-right: 1%;
+    margin-left: 1%;
+    margin-right: 4%;
     font-size: 32px;
+    line-height: 1.5;
 
 }
