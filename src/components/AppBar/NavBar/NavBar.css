@@ -1,19 +1,11 @@
 .navbar-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar-list {
-    display: flex;
-    list-style-type: none;
-  }
-  
-  .navbar-list li {
-    margin: 0 10px;
-  }
-  
-  .navbar-list li a {
-    text-decoration: none;
-    color: white;
-  }
-  
+  display: flex;
+  align-items: center; /* Center align the items vertically */
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: white;
+}

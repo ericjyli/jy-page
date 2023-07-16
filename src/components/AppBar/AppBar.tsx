@@ -12,7 +12,7 @@ const { Header } = Layout;
 const AppBar = () => {
   return (
     <Header className="header">
-      <div className="avatar-container">
+      <div className="appbar-container">
         <Avatar />
         <NavBar />
       </div>

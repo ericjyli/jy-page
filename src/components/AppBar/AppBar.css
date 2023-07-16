@@ -1,16 +1,15 @@
-.top-menu-container {
-    display: flex;
-    align-items: center;
-  }
-  
-.avatar-container {
+.appbar-container {
     margin-right: 10px; /* Adjust the spacing between the avatar and navbar */
-}
-
-.navbar-container {
+    display: flex;
     flex-grow: 1;
 }
 
 .AppBar {
     position: fixed;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Center align the items vertically */
+  justify-content: center; /* Center align the items horizontally */
 }
