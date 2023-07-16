@@ -1,6 +1,5 @@
 import React from 'react';
-import { Layout, Menu } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import { Layout} from 'antd';
 import Avatar from '../Avatar/Avatar';
 import NavBar from './NavBar/NavBar';
 import './AppBar.css';

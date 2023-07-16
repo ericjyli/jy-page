@@ -2,6 +2,7 @@
     margin-right: 10px; /* Adjust the spacing between the avatar and navbar */
     display: flex;
     flex-grow: 1;
+
 }
 
 .AppBar {
@@ -12,4 +13,5 @@
   display: flex;
   align-items: center; /* Center align the items vertically */
   justify-content: center; /* Center align the items horizontally */
+  height: auto;
 }

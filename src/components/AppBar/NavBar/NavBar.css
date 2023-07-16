@@ -3,6 +3,7 @@
   align-items: center; /* Center align the items vertically */
   justify-content: center;
   flex-grow: 1;
+  height: 100px;
 }
 
 .navbar-list li a {
