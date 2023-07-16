@@ -45,7 +45,8 @@
     text-decoration: none;
 }
 
-.Photo {
-    width: 80%;
-    height: auto;
+.welcome-page .Portrait-right .ant-image .ant-image-img {
+    width: 80% !important;
+    height: auto !important;
+    vertical-align: middle !important;
 }
