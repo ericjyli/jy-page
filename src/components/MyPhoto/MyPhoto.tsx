@@ -1,12 +1,16 @@
 import React from 'react'
 import Photo from './Photo.jpg'
 import './MyPhoto.css'
+import { Image } from 'antd';
+
 
 const MyPhoto = () => {
     return(
-        <div className="Portrait">
-            <img className="Portrait-img" src={Photo} alt="Portrait"/>
-        </div>
+        <Image 
+            className="Portrait-img"
+            src={Photo} 
+            alt="Portrait">
+        </Image>
     )
 }
 
