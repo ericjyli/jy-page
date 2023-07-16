@@ -18,7 +18,6 @@ const WelcomePage = () => {
 
             <div className="Portrait-right">
                 <Photo />
-
             </div>
         </div>
     )

@@ -15,11 +15,12 @@
 
 .Portrait-right {
     flex: 1;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-
+    margin-right: 2%;
+    max-height: 80%;
 }
 
 
@@ -30,7 +31,6 @@
 
 
 .welcome-text .welcome-name {
-
     margin-top: 10%;
 }
 
@@ -43,7 +43,9 @@
 .brief-intro a {
     color: rgb(146, 146, 146);
     text-decoration: none;
-
 }
 
-/* Add any other styles as needed */
+.Photo {
+    width: 80%;
+    height: auto;
+}
