@@ -1,14 +1,39 @@
+.main-content {
+    background-color: #112545;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.Intro {
+    width: 92%;
+
+    background-color: #112545;
+}
+
+.anchor-container {
+    position: fixed;
+    top: 120px;
+
+    right: 0;
+    width: 8%;
+    background-color: #112545;
+    border-left: 1px solid white;
+    border-left-color: white;
+
+}
+  
+
 .intro-name {
     color: white;
     text-align: center;
-    
 }
 
 .intro-text {
     font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.alpaca-intro {
+#alpaca-intro {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,7 +62,7 @@
 
 }
 
-.hobbies {
+#hobbies {
     color: white;
     font-size: 32px;
 }
