@@ -34,7 +34,7 @@
     font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#alpaca-intro {
+#intro {
     display: flex;
     flex-direction: row;
     justify-content: center;

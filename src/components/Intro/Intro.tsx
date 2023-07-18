@@ -13,7 +13,7 @@ const Intro = () => {
                         Junyu (Eric) Li           李骏宇
                     </pre>
                 </h1>
-                <div id="alpaca-intro">
+                <div id="intro">
                     <div className="alpaca-pic">
                         <Alpaca />
                     </div>
@@ -38,9 +38,9 @@ const Intro = () => {
                     className="anchor"
                     items={[
                         {
-                            key: 'alpaca-intro',
-                            href: '#alpaca-intro',
-                            title: 'alpaca-intro'
+                            key: 'intro',
+                            href: '#intro',
+                            title: 'intro'
                         },
                         {
                             key: 'hobbies',
