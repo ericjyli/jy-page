@@ -1,7 +1,7 @@
 import React from "react";
 import './Intro.css'
 import Alpaca from "../Alpaca/Alpaca";
-import { Anchor, Row, Col } from 'antd';
+import { Anchor } from 'antd';
 
 
 const Intro = () => {
@@ -9,9 +9,14 @@ const Intro = () => {
         <div className="main-content">
             <div className="Intro">
                 <h1 className="intro-name">
-                    <pre className="intro-text">
-                        Junyu (Eric) Li           李骏宇
-                    </pre>
+    
+                    <div className="english-name">
+                        Junyu (Eric) Li 
+                    </div>
+                    <div className="chinese-name">
+                        李骏宇
+                    </div>      
+  
                 </h1>
                 <div id="intro">
                     <div className="alpaca-pic">

@@ -26,13 +26,34 @@
 }
 
 .intro-name {
-    color: white;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    color: white;
 }
 
-.intro-text {
-    font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
+.english-name .chinese-name {
+    text-align: center;
+
+
 }
+
+.english-name {
+    padding-right: 2%;
+    display: flex;
+}
+
+.chinese-name {
+    padding-left: 2%;
+    display: flex;
+}
+
+
+
+
 
 #intro {
     display: flex;
@@ -62,6 +83,19 @@
     line-height: 1.5;
 
 }
+
+@media screen and (min-width: 768px) {
+    .alpaca-text {
+      font-size: 36px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .alpaca-text {
+      font-size: 28px; 
+    }
+  }
+
 
 #hobbies {
     color: white;
