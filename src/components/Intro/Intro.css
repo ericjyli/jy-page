@@ -5,7 +5,7 @@
 }
 
 .Intro {
-    width: 92%;
+    width: 93%;
 
     background-color: #112545;
 }
@@ -13,7 +13,7 @@
 .anchor-container {
     position: sticky;
     right: 0;
-    width: 8%;
+    width: 7%;
     background-color: #112545;
 }
 
@@ -67,6 +67,7 @@
     justify-content: center;
     align-items: center;
     width: 40%;
+    height: auto;
     margin-right: 1%;
 
 
@@ -79,27 +80,28 @@
     justify-content: center;
     margin-left: 1%;
     margin-right: 4%;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 1.5;
 
 }
 
 @media screen and (min-width: 768px) {
     .alpaca-text {
-      font-size: 36px; 
+      font-size: 28px; 
     }
 }
 
 @media screen and (max-width: 480px) {
     .alpaca-text {
-      font-size: 28px; 
+      font-size: 16px; 
     }
   }
 
 
 #hobbies {
     color: white;
-    font-size: 32px;
+    font-size: 24px;
+    text-align: center;
 }
 
 .ant-divider-plain.ant-divider-with-text {
@@ -112,4 +114,13 @@
 
 .ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after {
     border-color: white;
+}
+
+.hobbies-list {
+    font-size: 24px;
+    line-height: 1.5;
+    list-style-position: inside;
+    padding-left: 0;
+    display: inline-block;
+    text-align:left;
 }
