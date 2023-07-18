@@ -9,8 +9,15 @@
     position: fixed;
 }
 
+
+
 .header {
-  display: flex;
+  top: 0;
+  position: sticky;
+  height: 64px;
+  width: 100%;
+ 
+
   align-items: center; /* Center align the items vertically */
   justify-content: center; /* Center align the items horizontally */
   height: auto;

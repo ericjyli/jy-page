@@ -1,6 +1,7 @@
 #root {
   background-color: #112545;
   height: 100vh;
+  display: flex;
 }
 
 body {
