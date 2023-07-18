@@ -11,7 +11,7 @@
 }
 
 .anchor-container {
-    position: sticky;
+    position: fixed;
     right: 0;
     width: 7%;
     background-color: #112545;
@@ -50,9 +50,6 @@
     padding-left: 2%;
     display: flex;
 }
-
-
-
 
 
 #intro {
