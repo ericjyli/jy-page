@@ -29,16 +29,24 @@ const Intro = () => {
                     </div>
                 </div>
 
-                <div id="hobbies">
+                <div id="about-me">
+
+
+                </div>
+
                 <Divider orientation="left" plain dashed className="hobby-divider">
-                    Hobbies
+                    hobbies
                 </Divider>
-                    Things I have been doing for ages:<br />
+                
+                <div id="hobbies">
+
+                    Things I have been enjoying for ages:<br />
                     <ul className="hobbies-list">
                         <li>Football (not the American one)</li>
-                        <li>Singing and Listening</li>
+                        <li>Music</li>
                         <li>Dota 2</li>
                         <li>Reading</li>
+                        <li>Movies</li>
                     </ul>
 
                 </div>
