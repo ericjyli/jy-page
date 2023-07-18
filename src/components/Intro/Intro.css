@@ -18,7 +18,7 @@
 }
 
 .ant-anchor-wrapper:not(.ant-anchor-wrapper-horizontal) .ant-anchor::before {
-    border-inline-start: 2px dotted white
+    border-inline-start: 2px solid #807e7e
 }
 
 .ant-anchor-wrapper .ant-anchor .ant-anchor-link-title {
