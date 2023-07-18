@@ -101,3 +101,15 @@
     color: white;
     font-size: 32px;
 }
+
+.ant-divider-plain.ant-divider-with-text {
+    color: white;
+}
+
+.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before {
+    border-color: white;
+}
+
+.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after {
+    border-color: white;
+}

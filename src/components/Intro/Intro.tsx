@@ -1,8 +1,7 @@
 import React from "react";
 import './Intro.css'
 import Alpaca from "../Alpaca/Alpaca";
-import { Anchor } from 'antd';
-
+import { Anchor, Divider } from 'antd';
 
 const Intro = () => {
     return(
@@ -31,6 +30,9 @@ const Intro = () => {
                 </div>
 
                 <div id="hobbies">
+                <Divider orientation="left" plain dashed className="hobby-divider">
+                    My Hobbies
+                </Divider>
                     My hobbies ..
                 </div>
 
