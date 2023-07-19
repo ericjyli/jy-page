@@ -71,6 +71,8 @@ const Intro = () => {
             <div className="anchor-container">
                 <Anchor
                     replace
+                    affix
+                    offsetTop={100}
                     className="anchor"
                     items={[
                         {
