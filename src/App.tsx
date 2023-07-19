@@ -12,7 +12,7 @@ import HomePage from './Pages/HomePage/HomePage';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="root-path">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

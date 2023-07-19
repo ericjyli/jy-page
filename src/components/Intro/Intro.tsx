@@ -22,22 +22,26 @@ const Intro = () => {
                         <Alpaca />
                     </div>
                     <div className="alpaca-text">
-                        Hi! My name is Junyu (pronounced as jyun-yu Li). You can also call me Eric.
+                        My name is Junyu (pronounced as jyun-yu). You can also call me Eric.
                         Besides, my friends called me "alpaca" starting from my primary school, and the nickname has been with me ever since.<br />
-                        I am currently a third-year student majored in Electrical and Computer Engineering at University of Toronto.
+                        I am currently an undergrad student majored in Electrical and Computer Engineering at University of Toronto.
     
                     </div>
                 </div>
 
-                <div id="about-me">
+                <Divider orientation="left" plain dashed className="about-me-divider">
+                    about me
+                </Divider>
 
+                <div id="about-me">
+                    I was borned in Shanghai, China, and I have spent the majority of my life there. 
 
                 </div>
 
                 <Divider orientation="left" plain dashed className="hobby-divider">
                     hobbies
                 </Divider>
-                
+
                 <div id="hobbies">
 
                     Things I have been enjoying for ages:<br />
@@ -63,6 +67,11 @@ const Intro = () => {
                             key: 'intro',
                             href: '#intro',
                             title: 'intro'
+                        },
+                        {
+                            key: 'about-me',
+                            href: '#about-me',
+                            title: 'about me'
                         },
                         {
                             key: 'hobbies',
