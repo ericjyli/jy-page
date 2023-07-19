@@ -102,6 +102,11 @@
     line-height: 1.5;
 }
 
+.shanghai-list {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 
 #hobbies {
     color: white;

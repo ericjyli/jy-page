@@ -34,7 +34,17 @@ const Intro = () => {
                 </Divider>
 
                 <div id="about-me">
-                    I was borned in Shanghai, China, and I have spent the majority of my life there. 
+                    I was borned in Shanghai, China, and I have spent the majority of my life there. If you plan to visit Shanghai, feel free to reach out to me for recommendations.<br />
+                    Things I love about Shanghai:<br />
+                    <ul className="shanghai-list">
+                        <li>Shanghai Shenhua FC</li>
+                        <li>Shanghainese dialect</li>
+                        <li>Shanghai metro</li>
+                        <li>Xujiahui</li>
+                        <li>Kangjian Community Stadium</li>
+                        <li>Huaihai Road</li>
+                        <li>People</li>
+                    </ul>
 
                 </div>
 
