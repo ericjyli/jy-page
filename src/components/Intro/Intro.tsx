@@ -39,11 +39,10 @@ const Intro = () => {
                     <ul className="shanghai-list">
                         <li>Shanghai Shenhua FC</li>
                         <li>Shanghainese dialect</li>
-                        <li>Shanghai metro</li>
+                        <li>Metro</li>
                         <li>Xujiahui</li>
                         <li>Kangjian Community Stadium</li>
                         <li>Huaihai Road</li>
-                        <li>People</li>
                     </ul>
 
                 </div>
