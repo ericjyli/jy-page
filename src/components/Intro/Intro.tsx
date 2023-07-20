@@ -35,7 +35,7 @@ const Intro = () => {
 
                 <div id="about-me">
                     I was borned in Shanghai, China, and I have spent the majority of my life there. If you plan to visit Shanghai, feel free to reach out to me for recommendations.<br />
-                    Things I love about Shanghai:<br />
+                    <br />My Shanghai Beloved:<br />
                     <ul className="shanghai-list">
                         <li>Shanghai Shenhua FC</li>
                         <li>Shanghainese dialect</li>
@@ -44,7 +44,34 @@ const Intro = () => {
                         <li>Kangjian Community Stadium</li>
                         <li>Huaihai Road</li>
                     </ul>
-
+                    Some facts:<br />
+                    <ul className="facts-list">
+                        <li>
+                            The first game I remember that I played was 'Age of Empires' (cuz my dad that time was playing the game). He always liked to choose the Assyrians. 
+                            I honestly did not understand anything about the game, literally just clicked the mouse randomly following the instructions.
+                        </li>
+                        <li>
+                            I literally attended the same school for my primary school, middle school, and high school. I got to know quite a lot of friends there.
+                            It is really nice to have friends not separated by time and space throughout the early years of my life.
+                        </li>
+                        <li>
+                            Before I went to middle school, I spent most of my spare time practicing Go. My weekends that time were literally full. I was pretty keen on it, when I woke up at 6 just to play Go myself. I appreciate that little boy.
+                        </li>
+                        <li>
+                            I got the first generation of iPad. The game I played the most that time was FIFA 11. That was the first time I got to know about football.
+                            I always controlled FC Barcelona, and I started to like the team since then. 
+                        </li>
+                        <li>
+                            Fun memory, David Villa was the ST of Barcelona in that version of FIFA, and I scored a lot of goals with him.
+                            I also heard that Messi from Barcelona was the best player in the world. For some reason, I thought Messi was Villa.
+                        </li>
+                        <li>
+                            I am a pretty persistent game player. The games I have been playing all lasted for years. Hearthstone, Dota 2, Fifa, PvZ. Yea these games all sound old now.
+                        </li>
+                        <li>
+                            Starting from the age of 15, I started to keep a folder for all kinds of tickets I got. I feel good looking back to these tickets, recalling many of the memories.
+                        </li>
+                    </ul>
                 </div>
 
                 <Divider orientation="left" plain dashed className="hobby-divider">
