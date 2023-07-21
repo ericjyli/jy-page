@@ -30,21 +30,17 @@ const Intro = () => {
                 </div>
 
                 <Divider orientation="left" plain dashed className="about-me-divider">
-                    about me
+                    About me
                 </Divider>
 
                 <div id="about-me">
-                    I was borned in Shanghai, China, and I have spent the majority of my life there. If you plan to visit Shanghai, feel free to reach out to me for recommendations.<br />
-                    <br />My Shanghai Beloved:<br />
-                    <ul className="shanghai-list">
-                        <li>Shanghai Shenhua FC</li>
-                        <li>Shanghainese dialect</li>
-                        <li>Metro</li>
-                        <li>Xujiahui</li>
-                        <li>Kangjian Community Stadium</li>
-                        <li>Huaihai Road</li>
-                    </ul>
-                    Some facts:<br />
+                    I was borned in Shanghai, China, and I have spent the majority of my life there. I started my undergrad study at University of Toronto in 2021. Since then, I have been living in Toronto.
+                    I am currently a third-year student majored in Electrical and Computer Engineering. <br />
+
+                    <div className="some-history">
+                        Some history:
+                    </div>
+
                     <ul className="facts-list">
                         <li>
                             The first game I remember that I played was 'Age of Empires' (cuz my dad that time was playing the game). He always liked to choose the Assyrians. 
@@ -62,31 +58,56 @@ const Intro = () => {
                             I always controlled FC Barcelona, and I started to like the team since then. 
                         </li>
                         <li>
-                            Fun memory, David Villa was the ST of Barcelona in that version of FIFA, and I scored a lot of goals with him.
+                            Fun memory. David Villa was the ST of Barcelona in that version of FIFA, and I scored a lot of goals with him.
                             I also heard that Messi from Barcelona was the best player in the world. For some reason, I thought Messi was Villa.
                         </li>
                         <li>
                             I am a pretty persistent game player. The games I have been playing all lasted for years. Hearthstone, Dota 2, Fifa, PvZ. Yea these games all sound old now.
                         </li>
                         <li>
-                            Starting from the age of 15, I started to keep a folder for all kinds of tickets I got. I feel good looking back to these tickets, recalling many of the memories.
+                            Starting from the age of 15, I started to keep a folder for all kinds of tickets I've got. It feels good to look back to these tickets, recalling many of the memories. I would be happy to share this folder.
                         </li>
                     </ul>
                 </div>
+                
+
+                <Divider orientation="left" plain dashed >
+                        About Shanghai:
+                    </Divider>
+
+                <div id="about-shanghai">
+                    If you plan to visit Shanghai, feel free to reach out to me for recommendations.<br />
+                        <br />My Shanghai Beloved:<br />
+                        <ul className="shanghai-list">
+                            <li>Shanghai Shenhua FC</li>
+                            <li>Shanghainese dialect</li>
+                            <li>Metro</li>
+                            <li>Xujiahui</li>
+                            <li>Kangjian Community Stadium</li>
+                            <li>Huaihai Road</li>
+                        </ul>
+                </div>
+
 
                 <Divider orientation="left" plain dashed className="hobby-divider">
-                    hobbies
+                    Things I like:
                 </Divider>
 
                 <div id="hobbies">
-
-                    Things I have been enjoying for ages:<br />
                     <ul className="hobbies-list">
                         <li>Football (not the American one)</li>
                         <li>Music</li>
                         <li>Dota 2</li>
                         <li>Reading</li>
                         <li>Movies</li>
+                        <li>Summer</li>
+                        <li>FC Barcelona</li>
+                        <li>Neat layouts</li>
+                        <li>Matcha</li>
+                        
+                  
+
+           
                     </ul>
 
                 </div>
