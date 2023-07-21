@@ -6,8 +6,14 @@
 
 .Intro {
     width: 93%;
-
     background-color: #112545;
+    color: white;
+    font-size: 24px;
+}
+
+.intro-wrapper {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .anchor-container {
@@ -97,7 +103,6 @@
 
 #about-me, #about-shanghai {
     color: white;
-    margin-left: 2%;
     font-size: 24px;
     line-height: 1.5;
 }
@@ -107,28 +112,30 @@
     margin-top: 1%;
 }
 
-.shanghai-list {
+
+.shanghai-list, .facts-list, .hobbies-list  {
     list-style-position: inside;
     padding-left: 0;
+    font-size: 24px;
+    line-height: 1.5;
 }
+
+
 
 
 #hobbies {
     color: white;
     font-size: 24px;
     text-align: left;
-    margin-left: 2%;
 }
 
-.hobby-divider {
-    margin-left: 2%;
-}
+
 
 .ant-divider-plain.ant-divider-with-text {
     color: white;
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-left: 2%;
+
 }
 
 
@@ -140,11 +147,3 @@
     border-color: white;
 }
 
-.hobbies-list {
-    font-size: 24px;
-    line-height: 1.5;
-    list-style-position: inside;
-    padding-left: 0;
-    display: inline-block;
-    text-align:left;
-}
