@@ -133,9 +133,9 @@ const Intro = () => {
                             title: 'about me'
                         },
                         {
-                            key: 'hobbies',
-                            href: '#hobbies',
-                            title: 'hobbies'
+                            key: 'i-like',
+                            href: '#likes',
+                            title: 'I like'
                         }
                     ]}
                 
