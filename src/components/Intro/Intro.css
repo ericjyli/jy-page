@@ -43,8 +43,6 @@
 
 .english-name .chinese-name {
     text-align: center;
-
-
 }
 
 .english-name {
@@ -58,7 +56,7 @@
 }
 
 
-#intro {
+#intro-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -123,7 +121,7 @@
 
 
 
-#hobbies {
+#i-like {
     color: white;
     font-size: 24px;
     text-align: left;
