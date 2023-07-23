@@ -41,6 +41,24 @@
     color: white;
 }
 
+@media (max-width: 600px) {
+    .intro-name {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 430px) {
+    .intro-name {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 290px) {
+    .intro-name {
+        font-size: 0.8em;
+    }
+}
+
 .english-name .chinese-name {
     text-align: center;
 }
@@ -121,7 +139,7 @@
 
 
 
-#i-like {
+#likes {
     color: white;
     font-size: 24px;
     text-align: left;

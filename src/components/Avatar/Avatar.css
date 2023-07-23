@@ -12,6 +12,11 @@
     color: white;
 }
 
+@media screen and (max-width: 780px) {
+    .avatar-name-container {
+        display: none;
+    }
+}
 
 .avatar-link {
     display: inline-block;
