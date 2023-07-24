@@ -15,7 +15,6 @@ const AppBar = () => {
         <Avatar />
         <NavBar />
       </div>
-
     </Header>
   );
 };

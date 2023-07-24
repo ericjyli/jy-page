@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { MenuOutlined } from '@ant-design/icons';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu } from 'antd';
 import './NavBar.css';
@@ -9,8 +10,22 @@ const NavBar = () => {
   // Extract the pathname from the location object
   const currentPath = location.pathname;
 
+  const [collapsed, setCollapsed] = useState(false);
+
+  const toggleCollapsed = () => {
+    setCollapsed(!collapsed);
+  };
+
   return (
     <div className="navbar-container">
+      <MenuOutlined 
+        style={{
+          color: "white",
+          width: "50px",  
+        }}
+        height="1.5em"
+        className="navbar-icon"
+      />
       <Menu theme="dark" mode="horizontal" selectedKeys={[currentPath]} className="navbar-list">
         <Menu.Item key="/about">
           <Link to="/about">About</Link>
