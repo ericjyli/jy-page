@@ -96,7 +96,7 @@ const Intro = () => {
 
                     Here are some of the things popped up in my mind at the moment. 
 
-                    <div id="i-like">
+                    <div id="likes">
                         <Divider orientation="left" plain dashed className="hobby-divider">
                             Things I like:
                         </Divider>
@@ -110,10 +110,6 @@ const Intro = () => {
                             <li>FC Barcelona</li>
                             <li>Neat layouts</li>
                             <li>Matcha</li>
-                            
-                    
-
-            
                         </ul>
 
                     </div>
@@ -136,7 +132,7 @@ const Intro = () => {
                         {
                             key: 'about-me',
                             href: '#about-me',
-                            title: 'about me'
+                            title: 'about'
                         },
                         {
                             key: 'likes',

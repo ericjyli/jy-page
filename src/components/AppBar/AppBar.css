@@ -7,7 +7,6 @@
   justify-content: center; /* Center align the items horizontally */
   height: auto;
   z-index: 100000;
-  margin-right: 10px; /* Adjust the spacing between the avatar and navbar */
   display: flex;
   flex-grow: 1;
 }

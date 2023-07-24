@@ -47,13 +47,13 @@
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 465px) {
     .intro-name {
         font-size: 1em;
     }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 310px) {
     .intro-name {
         font-size: 0.8em;
     }
@@ -99,14 +99,36 @@
     justify-content: center;
     margin-left: 1%;
     margin-right: 4%;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.5;
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .alpaca-text {
-      font-size: 28px; 
+      font-size: 24px; 
+    }
+    #intro-text {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .alpaca-text, .alpaca-pic {
+        margin-right: 1%;
+        width: 96%;
+    }
+
+    .alpaca-pic {
+        margin-bottom: 1%;
+    }
+
+    .Intro {
+        width: 90%;
+    }
+
+    .anchor-container {
+        width: 10%;
     }
 }
 
@@ -114,7 +136,30 @@
     .alpaca-text {
       font-size: 16px; 
     }
-  }
+    #intro-text {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .alpaca-text, .alpaca-pic {
+        margin-right: 1%;
+        width: 96%;
+    }
+
+    .alpaca-pic {
+        margin-bottom: 1%;
+    }
+
+    .Intro {
+        width: 85%;
+    }
+
+    .anchor-container {
+        width: 15%;
+    }
+
+}
 
 
 #about-me, #about-shanghai {
