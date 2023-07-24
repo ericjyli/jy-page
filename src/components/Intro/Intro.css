@@ -103,9 +103,50 @@
     line-height: 1.5;
 
 }
+#about-me, #about-shanghai {
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+
+.shanghai-list, .facts-list, .hobbies-list  {
+    list-style-position: inside;
+    padding-left: 0;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+#likes {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+.ant-divider-plain.ant-divider-with-text {
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+
+.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before {
+    border-color: white;
+}
+
+.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after {
+    border-color: white;
+}
+
+
 
 @media screen and (max-width: 768px) {
-    .alpaca-text {
+    .alpaca-text, #about-me, #about-shanghai, #likes, .facts-list, .shanghai-list, .hobbies-list{
       font-size: 24px; 
     }
     #intro-text {
@@ -133,7 +174,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .alpaca-text {
+    .alpaca-text, #about-me, #about-shanghai, #likes, .facts-list, .shanghai-list, .hobbies-list {
       font-size: 16px; 
     }
     #intro-text {
@@ -159,52 +200,5 @@
         width: 15%;
     }
 
-}
-
-
-#about-me, #about-shanghai {
-    color: white;
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.some-history {
-    font-weight: 600;
-    margin-top: 1%;
-}
-
-
-.shanghai-list, .facts-list, .hobbies-list  {
-    list-style-position: inside;
-    padding-left: 0;
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-
-
-
-#likes {
-    color: white;
-    font-size: 24px;
-    text-align: left;
-}
-
-
-
-.ant-divider-plain.ant-divider-with-text {
-    color: white;
-    margin-top: 16px;
-    margin-bottom: 16px;
-
-}
-
-
-.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before {
-    border-color: white;
-}
-
-.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after {
-    border-color: white;
 }
 

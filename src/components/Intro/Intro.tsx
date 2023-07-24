@@ -43,9 +43,9 @@ const Intro = () => {
                         I was borned in Shanghai, China, and I have spent the majority of my life there. I started my undergrad study at University of Toronto in 2021. Since then, I have been living in Toronto.
                         I am currently a third-year student majored in Electrical and Computer Engineering. <br />
 
-                        <div className="some-history">
+                        <h3 className="some-history">
                             Some history:
-                        </div>
+                        </h3>
 
                         <ul className="facts-list">
                             <li>
@@ -94,9 +94,10 @@ const Intro = () => {
                             </ul>
                     </div>
 
-                    Here are some of the things popped up in my mind at the moment. 
+                    
 
                     <div id="likes">
+                        Here are some of the things popped up in my mind at the moment. 
                         <Divider orientation="left" plain dashed className="hobby-divider">
                             Things I like:
                         </Divider>
