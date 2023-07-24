@@ -174,6 +174,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .intro-name {
+        flex-direction: column;
+    }
+
     .alpaca-text, #about-me, #about-shanghai, #likes, .facts-list, .shanghai-list, .hobbies-list {
       font-size: 16px; 
     }
