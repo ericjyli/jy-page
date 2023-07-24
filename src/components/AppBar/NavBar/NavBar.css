@@ -1,6 +1,6 @@
-.navbar-container {
+.navbar-list {
   display: flex;
-  align-items: center; /* Center align the items vertically */
+  align-items: center; 
   justify-content: center;
   flex-grow: 1;
   height: 100px;

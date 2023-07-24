@@ -10,11 +10,9 @@ const { Header } = Layout;
 
 const AppBar = () => {
   return (
-    <Header className="header">
-      <div className="appbar-container">
-        <Avatar />
-        <NavBar />
-      </div>
+    <Header className="header" >
+      <Avatar />
+      <NavBar />
     </Header>
   );
 };

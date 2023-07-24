@@ -9,7 +9,7 @@ const AvatarPic = () => {
             <a href="/" className="avatar-link">
                 <Avatar className="avatar-img" 
                 src={AvatarImage} 
-                size={{ xs: 64, sm: 80, md: 80, lg: 80, xl: 80, xxl: 80 }} 
+                size={80}
                 alt="Avatar"
                 />
             </a>
