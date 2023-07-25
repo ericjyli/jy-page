@@ -39,8 +39,8 @@ const Intro = () => {
                         <Divider orientation="left" plain dashed className="about-me-divider">
                             About me
                         </Divider>
-
-                        I was borned in Shanghai, China, and I have spent the majority of my life there. I started my undergrad study at University of Toronto in 2021. Since then, I have been living in Toronto.
+                        
+                        I was borned in Shanghai, China, and I have spent the majority of my life there. I started my undergrad study at University of Toronto in 2021, and I have been living in Toronto since then.
                         I am currently a third-year student majored in Electrical and Computer Engineering. <br />
 
                         <h3 className="some-history">
@@ -109,9 +109,9 @@ const Intro = () => {
                             <li>Reading</li>
                             <li>Movies</li>
                             <li>Summer</li>
-                            <li>FC Barcelona</li>
                             <li>Neat layouts</li>
                             <li>Matcha</li>
+                            <li>Board games</li>
                         </ul>
 
                     </div>
