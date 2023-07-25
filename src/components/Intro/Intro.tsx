@@ -97,10 +97,11 @@ const Intro = () => {
                     
 
                     <div id="likes">
-                        Here are some of the things popped up in my mind at the moment. 
+                        
                         <Divider orientation="left" plain dashed className="hobby-divider">
                             Things I like:
                         </Divider>
+                        Here are some of the things popped up in my mind at the moment. 
                         <ul className="hobbies-list">
                             <li>Football (not the American one)</li>
                             <li>Music</li>
