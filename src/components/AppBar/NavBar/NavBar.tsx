@@ -13,32 +13,27 @@ const NavBar = () => {
   const currentPath = location.pathname;
 
 
-
-
-
   return (
-    // <div className="navbar-container">
-      <Menu 
-        theme="dark" 
-        mode="horizontal" 
-        selectedKeys={[currentPath]} 
-        className="navbar-list" 
-        style={{ flex: "auto", minWidth: 0 }}
-      >
-          <Menu.Item key="/about">
-            <Link to="/about">About</Link>
-          </Menu.Item>
-          <Menu.Item key="/experiences">
-            <Link to="/experiences">Experiences</Link>
-          </Menu.Item>
-          <Menu.Item key="/resume">
-            <Link to="/resume">Resume</Link>
-          </Menu.Item>
-          <Menu.Item key="/contact">
-            <Link to="/contact">Contact</Link>
-          </Menu.Item>
-      </Menu>
-    // </div>
+    <Menu 
+      theme="dark" 
+      mode="horizontal" 
+      selectedKeys={[currentPath]} 
+      className="navbar-list" 
+      style={{ flex: "auto", minWidth: 0 }}
+    >
+        <Menu.Item key="/about">
+          <Link to="/about">About</Link>
+        </Menu.Item>
+        <Menu.Item key="/experiences">
+          <Link to="/experiences">Experiences</Link>
+        </Menu.Item>
+        <Menu.Item key="/resume">
+          <Link to="/resume">Resume</Link>
+        </Menu.Item>
+        <Menu.Item key="/contact">
+          <Link to="/contact">Contact</Link>
+        </Menu.Item>
+    </Menu>
   );
 };
 

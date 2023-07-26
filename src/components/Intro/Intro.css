@@ -1,13 +1,11 @@
 .main-content {
-    background-color: #112545;
     display: flex;
     flex-direction: row;
 }
 
 .Intro {
     width: 93%;
-    background-color: #112545;
-    color: white;
+    color: black;
     font-size: 24px;
 }
 
@@ -20,7 +18,7 @@
     position: fixed;
     right: 0;
     width: 7%;
-    background-color: #112545;
+
 }
 
 .ant-anchor-wrapper:not(.ant-anchor-wrapper-horizontal) .ant-anchor::before {
@@ -28,7 +26,7 @@
 }
 
 .ant-anchor-wrapper .ant-anchor .ant-anchor-link-title {
-    color: white;
+    color: black;
 }
 
 .intro-name {
@@ -38,7 +36,7 @@
     align-items: center;
     font-family: 'Comic Sans MS', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: row;
-    color: white;
+    color: black;
 }
 
 @media (max-width: 630px) {
@@ -85,7 +83,7 @@
 
 .alpaca-text {
     flex: 1;
-    color: white;
+    color: black;
     width: 60%;
     justify-content: center;
     margin-left: 1%;
@@ -95,7 +93,7 @@
 
 }
 #about-me, #about-shanghai {
-    color: white;
+    color: black;
     font-size: 24px;
     line-height: 1.5;
 }
@@ -111,7 +109,7 @@
 
 
 #likes {
-    color: white;
+    color: black;
     font-size: 24px;
     text-align: left;
 }
@@ -119,19 +117,15 @@
 
 
 .ant-divider-plain.ant-divider-with-text {
-    color: white;
+    color: black;
     margin-top: 16px;
     margin-bottom: 16px;
 
 }
 
 
-.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before {
-    border-color: white;
-}
-
-.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after {
-    border-color: white;
+.ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before, .ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after  {
+    border-color: black;
 }
 
 
