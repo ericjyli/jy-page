@@ -41,23 +41,14 @@
     color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .intro-name {
         font-size: 1.5em;
     }
 }
 
-@media (max-width: 465px) {
-    .intro-name {
-        font-size: 1em;
-    }
-}
 
-@media (max-width: 310px) {
-    .intro-name {
-        font-size: 0.8em;
-    }
-}
+
 
 .english-name .chinese-name {
     text-align: center;
@@ -149,6 +140,7 @@
     .alpaca-text, #about-me, #about-shanghai, #likes, .facts-list, .shanghai-list, .hobbies-list{
       font-size: 24px; 
     }
+
     #intro-text {
         flex-direction: column;
         align-items: center;
@@ -166,6 +158,11 @@
 
     .Intro {
         width: 90%;
+    }
+
+    .intro-wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .anchor-container {
@@ -198,11 +195,12 @@
     }
 
     .Intro {
-        width: 85%;
+        width: 100%;
     }
 
     .anchor-container {
-        width: 15%;
+        /* width: 15%; */
+        display: none;
     }
 
 }
