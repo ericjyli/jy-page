@@ -1,10 +1,7 @@
-import React, {useState, useEffect} from 'react';
-import { MenuOutlined } from '@ant-design/icons';
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu } from 'antd';
 import './NavBar.css';
-
-const { SubMenu } = Menu;
 
 const NavBar = () => {
   const location = useLocation();

@@ -1,4 +1,17 @@
 
-.contact-icons-container .anticon {
-    font-size: 28px; 
-  }
+.contact-icons-container {
+    font-size: 6vw; 
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons-container > svg {
+    padding: 10%; 
+}
+
+.github-icon, .linkedin-icon, .instagram-icon, .discord-icon, .twitter-icon, .email-icon {
+    text-decoration: none;
+    color: inherit; 
+    align-self: center;
+    padding: 10%;
+}
