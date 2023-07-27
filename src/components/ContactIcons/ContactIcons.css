@@ -1,4 +1,10 @@
 
-.contact-icons-container .anticon {
-    font-size: 28px; 
-  }
+.contact-icons-container {
+    font-size: 2.5vw; 
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons-container > svg {
+    padding: 10%; 
+}

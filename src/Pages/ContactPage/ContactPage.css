@@ -6,9 +6,10 @@
 }
 
 #contact-info, #email {
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .contact-text {
     margin-bottom: 10%;
+    margin-top: 3%;
 }
