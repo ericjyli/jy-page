@@ -10,7 +10,7 @@ const ContactPage = () => {
             <div className="contact-container">
                 <div className="contact-text">
                     <h1>Contact</h1>
-                    <div id="contact-info">Feel free to reach out to me. You can find me at <br /> </div>
+                    <div id="contact-info">Feel free to reach out to me. You can find me at</div>
                     <a href="mailto:ericli.jy@outlook.com" id="email">ericli.jy@outlook.com</a>
                 </div>
                 <ContactIcons />

@@ -9,7 +9,14 @@
     font-size: 2.5vw;
 }
 
+#contact-info {
+    margin-bottom: 3%;
+}
+
 .contact-text {
     margin-bottom: 10%;
     margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+
 }

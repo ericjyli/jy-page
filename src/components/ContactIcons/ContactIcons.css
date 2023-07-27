@@ -1,10 +1,17 @@
 
 .contact-icons-container {
-    font-size: 2.5vw; 
+    font-size: 50px; 
     display: flex;
     justify-content: center;
 }
 
 .contact-icons-container > svg {
     padding: 10%; 
+}
+
+.github-icon, .linkedin-icon, .instagram-icon, .discord-icon, .twitter-icon, .email-icon {
+    text-decoration: none;
+    color: inherit; 
+    align-self: center;
+    padding: 10%;
 }
