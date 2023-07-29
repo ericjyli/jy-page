@@ -114,6 +114,7 @@ const Intro = () => {
                             <li>Board games</li>
                         </ul>
 
+
                     </div>
 
                 </div>
