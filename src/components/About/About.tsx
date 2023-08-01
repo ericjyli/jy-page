@@ -1,7 +1,15 @@
 import React from "react";
 import './About.css'
 import Alpaca from "../Alpaca/Alpaca";
-import { Anchor, Divider } from 'antd';
+import { Anchor, Divider, Image } from 'antd';
+
+import final from "../pictures/final.jpg"
+import JayChou from "../pictures/JayChou.jpg"
+import matcha from "../pictures/matcha.jpg"
+import mayday from "../pictures/mayday.jpg"
+import shenhua from "../pictures/shenhua.jpg"
+import SIFF from "../pictures/SIFF.jpg"
+import ti9 from "../pictures/ti9.jpg"
 
 const About = () => {
     return(
@@ -101,6 +109,7 @@ const About = () => {
                         <Divider orientation="left" plain dashed className="hobby-divider">
                             Things I like:
                         </Divider>
+
                         Here are some of the things popped up in my mind at the moment. 
                         <ul className="hobbies-list">
                             <li>Football (not the American one)</li>
@@ -114,6 +123,20 @@ const About = () => {
                             <li>Board games</li>
                         </ul>
 
+
+                        <Image.PreviewGroup
+                            preview={{
+                            onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
+                            }}
+                        >
+                            <Image width={200} src={final} />
+                            {/* <Image width={200} src={JayChou}/>
+                            <Image width={200} src={matcha}/>
+                            <Image width={200} src={mayday}/>
+                            <Image width={200} src={shenhua}/>
+                            <Image width={200} src={SIFF}/>
+                            <Image width={200} src={ti9}/> */}
+                        </Image.PreviewGroup>
                     </div>
 
                 </div>
