@@ -130,12 +130,12 @@ const About = () => {
                             }}
                         >
                             <Image width={200} src={final} />
-                            {/* <Image width={200} src={JayChou}/>
+                            <Image width={200} src={JayChou}/>
                             <Image width={200} src={matcha}/>
                             <Image width={200} src={mayday}/>
                             <Image width={200} src={shenhua}/>
                             <Image width={200} src={SIFF}/>
-                            <Image width={200} src={ti9}/> */}
+                            <Image width={200} src={ti9}/>
                         </Image.PreviewGroup>
                     </div>
 
