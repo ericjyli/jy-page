@@ -138,7 +138,6 @@ const About = () => {
                             <Image width={200} src={ti9}/>
                         </Image.PreviewGroup>
                     </div>
-
                 </div>
             </div>
 
