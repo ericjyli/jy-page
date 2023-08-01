@@ -1,9 +1,9 @@
 import React from "react";
-import './Intro.css'
+import './About.css'
 import Alpaca from "../Alpaca/Alpaca";
 import { Anchor, Divider } from 'antd';
 
-const Intro = () => {
+const About = () => {
     return(
         <div className="main-content">
             <div className="Intro">
@@ -152,4 +152,4 @@ const Intro = () => {
     )
 }
 
-export default Intro;
+export default About;

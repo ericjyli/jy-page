@@ -1,6 +1,6 @@
 import React from 'react'
 import AppBar from '../../components/AppBar/AppBar'
-import Intro from '../../components/Intro/Intro'
+import Intro from '../../components/About/About'
 import './AboutPage.css'
 
 const AboutPage = () => {
