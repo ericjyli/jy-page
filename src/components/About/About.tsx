@@ -3,13 +3,13 @@ import './About.css'
 import Alpaca from "../Alpaca/Alpaca";
 import { Anchor, Divider, Image } from 'antd';
 
-import final from "../pictures/final.jpg"
-import JayChou from "../pictures/JayChou.jpg"
-import matcha from "../pictures/matcha.jpg"
-import mayday from "../pictures/mayday.jpg"
-import shenhua from "../pictures/shenhua.jpg"
-import SIFF from "../pictures/SIFF.jpg"
-import ti9 from "../pictures/ti9.jpg"
+import final from "../pictures/final.png"
+import JayChou from "../pictures/JayChou.png"
+import matcha from "../pictures/matcha.png"
+import mayday from "../pictures/mayday.png"
+import shenhua from "../pictures/shenhua.png"
+import SIFF from "../pictures/SIFF.png"
+import ti9 from "../pictures/ti9.png"
 
 const About = () => {
     return(
