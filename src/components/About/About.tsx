@@ -126,16 +126,16 @@ const About = () => {
 
                         <Image.PreviewGroup
                             preview={{
-                            onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
+                                onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                             }}
                         >
-                            <Image width={200} src={final} />
-                            <Image width={200} src={JayChou}/>
-                            <Image width={200} src={matcha}/>
-                            <Image width={200} src={mayday}/>
-                            <Image width={200} src={shenhua}/>
-                            <Image width={200} src={SIFF}/>
-                            <Image width={200} src={ti9}/>
+                            <Image width={300} src={final} />
+                            <Image width={300} src={JayChou} />
+                            <Image width={300} src={matcha} />
+                            <Image width={300} src={mayday} />
+                            <Image width={300} src={shenhua} />
+                            <Image width={300} src={SIFF} />
+                            <Image width={300} src={ti9} />
                         </Image.PreviewGroup>
                     </div>
                 </div>
