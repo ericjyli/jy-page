@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css'
 import Alpaca from "../Alpaca/Alpaca";
-import { Anchor, Divider, Image } from 'antd';
+import { Anchor, Divider, Image, List, Typography } from 'antd';
 
 import final from "../pictures/final.png"
 import JayChou from "../pictures/JayChou.png"
@@ -10,6 +10,17 @@ import mayday from "../pictures/mayday.png"
 import shenhua from "../pictures/shenhua.png"
 import SIFF from "../pictures/SIFF.png"
 import ti9 from "../pictures/ti9.png"
+
+
+const about_me_data = [
+    "The first game I remember that I played was 'Age of Empires' (cuz my dad that time was playing the game). He always liked to choose the Assyrians. I honestly did not understand anything about the game, literally just clicked the mouse randomly following the instructions.",
+    "I literally attended the same school for my primary school, middle school, and high school. I got to know quite a lot of friends there. It is really nice to have friends not separated by time and space throughout the early years of my life.",
+    "Before I went to middle school, I spent most of my spare time practicing Go. My weekends that time were literally full. I was pretty keen on it, when I woke up at 6 just to play Go myself. I appreciate that little boy.",
+    "I got the first generation of iPad. The game I played the most that time was FIFA 11. That was the first time I got to know about football. I always controlled FC Barcelona, and I started to like the team since then.",
+    "Fun memory. David Villa was the ST of Barcelona in that version of FIFA, and I scored a lot of goals with him. I also heard that Messi from Barcelona was the best player in the world. For some reason, I thought Messi was Villa.",
+    "I am a pretty persistent game player. The games I have been playing all lasted for years. Hearthstone, Dota 2, Fifa, PvZ. Yea these games all sound old now.",
+    "Starting from the age of 15, I started to keep a folder for all kinds of tickets I've got. It feels good to look back to these tickets, recalling many of the memories. I would be happy to share this folder."
+]
 
 const About = () => {
     return(
@@ -55,33 +66,19 @@ const About = () => {
                             Some history:
                         </h3>
 
+                        <List
+                            dataSource={about_me_data}
+                            renderItem={(item) => <List.Item>{item}</List.Item>}
+                            size="large"
+                            bordered
+                        >
+
+
+                        </List>
+{/* 
                         <ul className="facts-list">
-                            <li>
-                                The first game I remember that I played was 'Age of Empires' (cuz my dad that time was playing the game). He always liked to choose the Assyrians. 
-                                I honestly did not understand anything about the game, literally just clicked the mouse randomly following the instructions.
-                            </li>
-                            <li>
-                                I literally attended the same school for my primary school, middle school, and high school. I got to know quite a lot of friends there.
-                                It is really nice to have friends not separated by time and space throughout the early years of my life.
-                            </li>
-                            <li>
-                                Before I went to middle school, I spent most of my spare time practicing Go. My weekends that time were literally full. I was pretty keen on it, when I woke up at 6 just to play Go myself. I appreciate that little boy.
-                            </li>
-                            <li>
-                                I got the first generation of iPad. The game I played the most that time was FIFA 11. That was the first time I got to know about football.
-                                I always controlled FC Barcelona, and I started to like the team since then. 
-                            </li>
-                            <li>
-                                Fun memory. David Villa was the ST of Barcelona in that version of FIFA, and I scored a lot of goals with him.
-                                I also heard that Messi from Barcelona was the best player in the world. For some reason, I thought Messi was Villa.
-                            </li>
-                            <li>
-                                I am a pretty persistent game player. The games I have been playing all lasted for years. Hearthstone, Dota 2, Fifa, PvZ. Yea these games all sound old now.
-                            </li>
-                            <li>
-                                Starting from the age of 15, I started to keep a folder for all kinds of tickets I've got. It feels good to look back to these tickets, recalling many of the memories. I would be happy to share this folder.
-                            </li>
-                        </ul>
+
+                        </ul> */}
                     </div>
                     
 
