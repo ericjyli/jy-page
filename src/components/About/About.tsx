@@ -22,6 +22,28 @@ const about_me_data = [
     "Starting from the age of 15, I started to keep a folder for all kinds of tickets I've got. It feels good to look back to these tickets, recalling many of the memories. I would be happy to share this folder."
 ]
 
+const hobbies_data = [
+    "Football (not the American one)",
+    "<Music",
+    "Dota 2",
+    "Reading",
+    "Movies",
+    "Summer",
+    "Neat layouts",
+    "Matcha",
+    "Board games"
+]
+
+const shanghai_data = [
+    "Shanghai Shenhua FC",
+    "Shanghainese dialect",
+    "Metro",
+    "Xujiahui",
+    "Kangjian Community Stadium",
+    "Huaihai Road",
+    "Qiantan"
+]
+
 const About = () => {
     return(
         <div className="main-content">
@@ -66,19 +88,14 @@ const About = () => {
                             Some history:
                         </h3>
 
+
                         <List
                             dataSource={about_me_data}
                             renderItem={(item) => <List.Item>{item}</List.Item>}
                             size="large"
                             bordered
-                        >
+                        />
 
-
-                        </List>
-{/* 
-                        <ul className="facts-list">
-
-                        </ul> */}
                     </div>
                     
 
@@ -87,16 +104,12 @@ const About = () => {
                             About Shanghai:
                         </Divider>
                         If you plan to visit Shanghai, feel free to reach out to me for recommendations.<br />
-                            <br />My Shanghai Beloved:<br />
-                            <ul className="shanghai-list">
-                                <li>Shanghai Shenhua FC</li>
-                                <li>Shanghainese dialect</li>
-                                <li>Metro</li>
-                                <li>Xujiahui</li>
-                                <li>Kangjian Community Stadium</li>
-                                <li>Huaihai Road</li>
-                                <li>Qiantan</li>
-                            </ul>
+
+                            <List
+                                header={<div className="list-header">My Shanghai Beloved:</div>}
+                                dataSource={shanghai_data}
+                                renderItem={(item) => <List.Item>{item}</List.Item>}
+                            />
                     </div>
 
                     
@@ -107,18 +120,14 @@ const About = () => {
                             Things I like:
                         </Divider>
 
-                        Here are some of the things popped up in my mind at the moment. 
-                        <ul className="hobbies-list">
-                            <li>Football (not the American one)</li>
-                            <li>Music</li>
-                            <li>Dota 2</li>
-                            <li>Reading</li>
-                            <li>Movies</li>
-                            <li>Summer</li>
-                            <li>Neat layouts</li>
-                            <li>Matcha</li>
-                            <li>Board games</li>
-                        </ul>
+                        
+                        <List
+                            header={<div className="list-header">Here are some of the things popped up in my mind at the moment.</div>}
+                            dataSource={hobbies_data}
+                            renderItem={(item) => <List.Item>{item}</List.Item>}
+                            className="hobby-list"
+            
+                        />
 
 
                         <Image.PreviewGroup

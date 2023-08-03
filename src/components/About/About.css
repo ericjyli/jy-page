@@ -96,14 +96,10 @@
 }
 
 
-
-.shanghai-list, .facts-list, .hobbies-list  {
-    list-style-position: inside;
-    padding-left: 0;
-    font-size: 24px;
-    line-height: 1.5;
+.hobby-list {
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
-
 
 #likes {
     color: black;
@@ -111,7 +107,9 @@
     text-align: left;
 }
 
-
+.list-header {
+    font-size: 24px;
+}
 
 .ant-divider-plain.ant-divider-with-text {
     color: black;
