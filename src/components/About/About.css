@@ -96,9 +96,9 @@
 }
 
 
-.hobby-list {
+.hobby-list, .shanghai-list {
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 #likes {
@@ -122,7 +122,6 @@
 .ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::before, .ant-divider-horizontal.ant-divider-with-text.ant-divider-dashed::after  {
     border-color: black;
 }
-
 
 
 @media screen and (max-width: 768px) {

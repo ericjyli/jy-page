@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css'
 import Alpaca from "../Alpaca/Alpaca";
-import { Anchor, Divider, Image, List, Typography } from 'antd';
+import { Anchor, Divider, Image, List } from 'antd';
 
 import final from "../pictures/final.png"
 import JayChou from "../pictures/JayChou.png"
@@ -109,6 +109,8 @@ const About = () => {
                                 header={<div className="list-header">My Shanghai Beloved:</div>}
                                 dataSource={shanghai_data}
                                 renderItem={(item) => <List.Item>{item}</List.Item>}
+                                bordered
+                                className="shanghai-list"
                             />
                     </div>
 
@@ -120,12 +122,13 @@ const About = () => {
                             Things I like:
                         </Divider>
 
-                        
+                        Here are some of the things popped up in my mind at the moment.
                         <List
-                            header={<div className="list-header">Here are some of the things popped up in my mind at the moment.</div>}
+                            header={<div className="list-header">I like:</div>}
                             dataSource={hobbies_data}
                             renderItem={(item) => <List.Item>{item}</List.Item>}
                             className="hobby-list"
+                            bordered
             
                         />
 
@@ -134,6 +137,7 @@ const About = () => {
                             preview={{
                                 onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                             }}
+         
                         >
                             <Image width={300} src={final} />
                             <Image width={300} src={JayChou} />
@@ -142,6 +146,8 @@ const About = () => {
                             <Image width={300} src={shenhua} />
                             <Image width={300} src={SIFF} />
                             <Image width={300} src={ti9} />
+
+
                         </Image.PreviewGroup>
                     </div>
                 </div>
