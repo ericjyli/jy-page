@@ -1,6 +1,42 @@
 .resume-title {
     font-weight: 800;
-    font-size: 6vw;
+    font-size: 32px;
     text-align: center;
     margin: 2%;
+
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.resume-main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume-main-content-container {
+    width: 90%;
+
+}
+
+.resume-anchor-container {
+    width: 10%;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .resume-anchor-container {
+        display: none;
+    }
+
+    .resume-main-content-container {
+        width: 100%;
+    }
+
+
+    
 }
