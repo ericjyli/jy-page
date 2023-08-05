@@ -14,9 +14,20 @@ const ResumeContent = () => {
                 <div className="resume-main-content-container">
                     
                     <div id="education">
-                        <div className="resume-section-title">Education</div>
-                        <div className="resume-section-content">
-
+                        <Title className="education-section-title"
+                            level={3}
+                            ellipsis
+                        >
+                            Education</Title>
+                        <div className="education-section-content">
+                            <Paragraph>
+                                B.A.Sc. Electrical and Computer Engineering
+                            </Paragraph>
+       
+                            <Paragraph>
+                                University of Toronto, 2026 (expected)
+                            </Paragraph>
+                            
                         </div>
                     </div>
                 </div>
