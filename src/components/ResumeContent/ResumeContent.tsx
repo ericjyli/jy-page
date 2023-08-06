@@ -56,6 +56,11 @@ const ResumeContent = () => {
                                 key: 'resume-education',
                                 href: '#education',
                                 title: 'Education'
+                            },
+                            {
+                                key: 'resume-experience',
+                                href: '#experience',
+                                title: 'Experiences'
                             }
                         ]}
                     />
