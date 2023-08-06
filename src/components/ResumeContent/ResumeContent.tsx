@@ -18,17 +18,30 @@ const ResumeContent = () => {
                             level={3}
                             ellipsis
                         >
-                            Education</Title>
+                            Education
+                        </Title>
                         <div className="education-section-content">
                             <Paragraph>
-                                B.A.Sc. Electrical and Computer Engineering
+                                B.A.Sc. Electrical and Computer Engineering + PEY
                             </Paragraph>
        
                             <Paragraph>
-                                University of Toronto, 2026 (expected)
+                                <Link href="https://www.engineering.utoronto.ca/">
+                                University of Toronto
+                                </Link>
+                                , 2026 (expected)
                             </Paragraph>
-                            
                         </div>
+                    </div>
+
+                    <div id="experience">
+                        <Title className="experience-section-title"
+                                level={3}
+                                ellipsis
+                            >
+                                Experiences
+                        </Title>
+
                     </div>
                 </div>
 
