@@ -41,6 +41,64 @@ const ResumeContent = () => {
                             >
                                 Experiences
                         </Title>
+                        <div className="experience-bx">
+                            <Title
+                                level={5}
+                                ellipsis
+                            >
+                                Baixing AI - Full Stack Engineer
+                            </Title>
+                            <Paragraph>
+                                <Text>
+                                    Baixing.AI, Shanghai, China<br />
+                                    Main project: <Link href="https://www.navit.ai">Navit.ai</Link> <br />
+                                    Navit is a platform for exploring various types of bots. It offers users easy access to these intriguing bots and provides developers with the convenience of integrating their API Bots into the platform.
+
+                                </Text>
+
+                                <ul>
+                                    <li>
+                                        Developed synchronous and asynchronous callback interfaces between the backend server of the website and the API bots server.
+                                    </li>
+                                    <li>
+                                        Drafted documentation for developers to integrate their bots on the website with additional functionalities, such as streaming response.
+                                    </li>
+                                    <li>
+                                        Applied prompt engineering integrated with external tools to build several API bots.
+                                    </li>
+                                </ul>
+
+                            </Paragraph>
+                        </div>
+
+                        <div className="experience-map">
+                            <Title
+                                level={5}
+                                ellipsis
+                            >   
+                                Map Application - Software Engineer
+                            </Title>
+                            <Paragraph>
+                                <Text>
+                                    University of Toronto, Toronto, Canada
+                                </Text>
+                                <ul>
+                                    <li>
+                                        Designed optimized data structures for quick loading and storage of data from OpenStreetMap database API.
+                                    </li>
+                                    <li>
+                                        Developed a user-friendly map application interface using the EZGL library.
+                                    </li>
+                                    <li>
+                                        Implemented Dijkstra's and A* algorithms for efficient path finding, generating path instructions with text-to-speech accessibility feature.
+                                    </li>
+                                    <li>
+                                        Applied parallelization to optimize the solution of the Traveling Salesman Problem based on Dijkstra’s algorithm by using 2-opt, swapping, etc.
+                                    </li>
+                                </ul>
+                                
+                            </Paragraph>
+                        </div>
 
                     </div>
                 </div>
