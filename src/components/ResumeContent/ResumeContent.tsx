@@ -100,6 +100,15 @@ const ResumeContent = () => {
                             </Paragraph>
                         </div>
 
+                        <div className="experience-sudoku">
+                            <Title
+                                level={5}
+                                ellipsis
+                            >
+                                Sudoku Game - Software Developer
+                            </Title>
+
+                        </div>
                     </div>
                 </div>
 
