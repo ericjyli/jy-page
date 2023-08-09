@@ -67,7 +67,6 @@ const ResumeContent = () => {
                                         Applied prompt engineering integrated with external tools to build several API bots.
                                     </li>
                                 </ul>
-
                             </Paragraph>
                         </div>
 
@@ -128,6 +127,33 @@ const ResumeContent = () => {
                                 </ul>
                             </Paragraph>
 
+                        </div>
+
+                        <div className="experience-monitoring-system">
+                            <Title
+                                level={5}
+                                ellipsis
+                            >   
+                                Engineering Design of energy monitoring system for condo buildings, Engineering Team Leader
+                            </Title>                      
+                            <Paragraph>
+                                <Text>
+                                    University of Toronto, Toronto, Canada
+                                </Text>
+                                <ul>
+                                    <li>
+                                        Drafted the project requirement approve by the engineering manager with detailed consideration and definition of the Gap, Need, Scope.
+                                    </li>
+                                    <li>
+                                        Developed and tested the machine learning algorithm that helped provide energy usage suggestions.
+                                    </li>
+                                    <li>
+                                        Proposed the measures of success to test the prototype and achieved all of our goals.
+                                    </li>
+
+                                </ul>
+
+                            </Paragraph>
                         </div>
                     </div>
                 </div>
