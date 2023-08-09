@@ -108,6 +108,26 @@ const ResumeContent = () => {
                                 Sudoku Game - Software Developer
                             </Title>
 
+                            <Paragraph>
+                                <Text>
+                                    University of Toronto, Toronto, Canada
+                                </Text>
+                                <ul>
+                                    <li>
+                                        Implemented backtrack algorithm to generate random solvable Sudoku games.
+                                    </li>
+                                    <li>
+                                        Designed a user-friendly interface with clear frames and different colors, making it very easy for the user to read the board and fill in numbers to play the game.
+                                    </li>
+                                    <li>
+                                    	Developed the functions in C language to save all past game data, kept track of the game orders even after the program is terminated and reopened.
+                                    </li>
+                                    <li>
+                                        Updated the entire program using C++ object-oriented programming to improve the efficiency and readability of the code.
+                                    </li>
+                                </ul>
+                            </Paragraph>
+
                         </div>
                     </div>
                 </div>
