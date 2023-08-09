@@ -1,8 +1,8 @@
 import React from 'react';
 import './ResumeContent.css';
 
-import { Typography, Anchor} from 'antd';
-const { Title, Paragraph, Text, Link } = Typography;
+import { Typography, Anchor, Image} from 'antd';
+const { Title, Paragraph, Text, Link} = Typography;
 
 
 const ResumeContent = () => {
@@ -155,6 +155,29 @@ const ResumeContent = () => {
 
                             </Paragraph>
                         </div>
+
+                    </div>
+
+                    <div id="skills">
+                        <Title className="skills-section-title"
+                                level={3}
+                                ellipsis
+                            >
+                                Skills
+                        </Title>
+                        <div>
+                            <Paragraph>
+                                <Text>
+                                    Stuffs I have been working with in the past year: <br />
+                                </Text>
+                                <Image  src="https://github-readme-stats-git-master-ericjyli.vercel.app/api/wakatime?username=ericjyli&layout=compact&theme=tokyonight" />
+                            </Paragraph>
+                        </div>
+                        
+                    </div>
+
+                    <div id="courses">
+
                     </div>
                 </div>
 
@@ -174,6 +197,11 @@ const ResumeContent = () => {
                                 key: 'resume-experience',
                                 href: '#experience',
                                 title: 'Experiences'
+                            },
+                            {
+                                key: 'resume-skills',
+                                href: '#skills',
+                                title: 'Skills'
                             }
                         ]}
                     />
