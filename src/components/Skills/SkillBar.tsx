@@ -43,14 +43,14 @@ const SkillBar: React.FC<SkillBarProps> = ({ data, categories }) => {
 
 SkillBar.propTypes = {
   data: PropTypes.shape({
-    category: PropTypes.arrayOf(PropTypes.string).isRequired,
+    category: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
     competency: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
   }).isRequired,
   categories: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    color: PropTypes.string,
-  })),
+    name: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired,
+  }).isRequired).isRequired,
 };
 
 SkillBar.defaultProps = {

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
+import CategoryButton from './CategoryButton';
+import SkillBar from './SkillBar';
 
 interface Skill {
-  title: string;
+  name: string;
   competency: number;
   category: string[];
 }
@@ -47,8 +49,8 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
       else if (a.competency < b.competency) ret = 1;
       else if (a.category[0] > b.category[0]) ret = -1;
       else if (a.category[0] < b.category[0]) ret = 1;
-      else if (a.title > b.title) ret = 1;
-      else if (a.title < b.title) ret = -1;
+      else if (a.name > b.name) ret = 1;
+      else if (a.name < b.name) ret = -1;
       return ret;
     };
 
@@ -59,7 +61,7 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
         <SkillBar
           categories={categories}
           data={skill}
-          key={skill.title}
+          key={skill.name}
         />
       ));
   };
@@ -94,14 +96,14 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
 
 Skills.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string,
-    competency: PropTypes.number,
-    category: PropTypes.arrayOf(PropTypes.string),
-  })),
+    name: PropTypes.string.isRequired,
+    competency: PropTypes.number.isRequired,
+    category: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+  }).isRequired).isRequired,
   categories: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    color: PropTypes.string,
-  })),
+    name: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired,
+  }).isRequired).isRequired,
 };
 
 Skills.defaultProps = {
