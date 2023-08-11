@@ -79,7 +79,7 @@ const skills: Skill[] = [
   {
     name: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
+    category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
     name: 'Typescript',
