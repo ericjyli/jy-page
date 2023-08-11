@@ -2,6 +2,9 @@ import React from 'react';
 import './ResumeContent.css';
 
 import { Typography, Anchor, Image} from 'antd';
+import Skills from '../Skills/Skills';
+import { skills, categories } from '../../data/skills';
+
 const { Title, Paragraph, Text, Link} = Typography;
 
 
@@ -175,6 +178,7 @@ const ResumeContent = () => {
                                 </Text>
                                 <Image  src="https://github-readme-stats-git-master-ericjyli.vercel.app/api/wakatime?username=ericjyli&layout=compact&theme=tokyonight" />
                             </Paragraph>
+                            <Skills skills={skills} categories={categories} />
                         </div>
                         
                     </div>
