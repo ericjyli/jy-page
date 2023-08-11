@@ -66,6 +66,9 @@ const ResumeContent = () => {
                                     <li>
                                         Applied prompt engineering integrated with external tools to build several API bots.
                                     </li>
+                                    <li>
+                                        Containerized the API bots with Docker and deployed them on serverless Kubernetes cluster, using Jenkins for the CI and Argo for the CD to optimize the pipeline.
+                                    </li>
                                 </ul>
                             </Paragraph>
                         </div>
