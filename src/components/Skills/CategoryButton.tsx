@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Button, Radio } from 'antd';
+
 interface CategoryButtonProps {
   label: string;
   handleClick: (label: string) => void;
@@ -7,13 +9,13 @@ interface CategoryButtonProps {
 }
 
 const CategoryButton: React.FC<CategoryButtonProps> = ({ handleClick, active, label }) => (
-  <button
+  <Radio.Button
     className={`skillbutton ${active[label] ? 'skillbutton-active' : ''}`}
-    type="button"
     onClick={() => handleClick(label)}
+    value={label}
   >
     {label}
-  </button>
+  </Radio.Button>
 );
 
 export default CategoryButton;

@@ -4,6 +4,14 @@ import PropTypes from 'prop-types';
 import CategoryButton from './CategoryButton';
 import SkillBar from './SkillBar';
 import './Skills.css';
+import { Button, Radio } from 'antd';
+import type { RadioChangeEvent } from 'antd';
+
+
+const onChange = (e: RadioChangeEvent) => {
+    console.log(`radio checked:${e.target.value}`);
+  };
+  
 
 interface Skill {
   name: string;
@@ -84,7 +92,11 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
         </p>
       </div>
       <div className="skill-button-container">
-        {getButtons()}
+        <Radio.Group onChange={onChange}>
+            {getButtons()}
+        </Radio.Group>
+            {/* {getButtons()} */}
+
       </div>
       <div className="skill-row-container">
         {getRows()}
