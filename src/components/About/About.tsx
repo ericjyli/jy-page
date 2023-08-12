@@ -158,7 +158,6 @@ const About = () => {
                     replace
                     affix
                     offsetTop={100}
-                    className="anchor"
                     items={[
                         {
                             key: 'intro',

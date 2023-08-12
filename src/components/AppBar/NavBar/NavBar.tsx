@@ -17,7 +17,10 @@ const NavBar = () => {
       selectedKeys={[currentPath]} 
       className="navbar-list" 
       style={{ flex: "auto", minWidth: 0 }}
-    >
+    > 
+        <Menu.Item key="/">
+          <Link to="/">Home</Link>
+        </Menu.Item>
         <Menu.Item key="/about">
           <Link to="/about">About</Link>
         </Menu.Item>
