@@ -172,12 +172,12 @@ const ResumeContent = () => {
                                 Skills
                         </Title>
                         <div>
-                            <Paragraph>
+                            {/* <Paragraph>
                                 <Text>
                                     Stuffs I have been working with in the past year: <br />
                                 </Text>
                                 <Image  src="https://github-readme-stats-git-master-ericjyli.vercel.app/api/wakatime?username=ericjyli&layout=compact&theme=tokyonight" />
-                            </Paragraph>
+                            </Paragraph> */}
                             <Skills skills={skills} categories={categories} />
                         </div>
                         
