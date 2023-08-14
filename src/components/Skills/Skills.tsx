@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import CategoryButton from './CategoryButton';
 import SkillBar from './SkillBar';
 import './Skills.css';
-import { Button, Radio } from 'antd';
+import { Radio } from 'antd';
+import { Link} from 'react-router-dom';
 import type { RadioChangeEvent } from 'antd';
 
 
@@ -87,15 +88,13 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
   return (
     <div className="skills">
       <div className="title">
-        <p>Note: I think these sections are silly, but everyone seems to have one.
-          Here is a *mostly* honest overview of my skills.
+        <p>Credit to <Link to="https://github.com/mldangelo/personal-site"> mldangelo </Link>  for the beautiful template of this section.
         </p>
       </div>
       <div className="skill-button-container">
         <Radio.Group onChange={onChange}>
             {getButtons()}
         </Radio.Group>
-            {/* {getButtons()} */}
 
       </div>
       <div className="skill-row-container">

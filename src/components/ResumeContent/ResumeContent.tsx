@@ -1,7 +1,7 @@
 import React from 'react';
 import './ResumeContent.css';
 
-import { Typography, Anchor, Image} from 'antd';
+import { Typography, Anchor} from 'antd';
 import Skills from '../Skills/Skills';
 import { skills, categories } from '../../data/skills';
 
@@ -140,7 +140,7 @@ const ResumeContent = () => {
                                 level={5}
                                 ellipsis
                             >   
-                                Engineering Design of energy monitoring system for condo buildings, Engineering Team Leader
+                                Engineering Design of energy monitoring system for condo buildings - Engineering Team Leader
                             </Title>                      
                             <Paragraph>
                                 <Text>
@@ -168,22 +168,34 @@ const ResumeContent = () => {
                         <Title className="skills-section-title"
                                 level={3}
                                 ellipsis
-                            >
-                                Skills
+                        >
+                            Skills
                         </Title>
                         <div>
-                            {/* <Paragraph>
-                                <Text>
-                                    Stuffs I have been working with in the past year: <br />
-                                </Text>
-                                <Image  src="https://github-readme-stats-git-master-ericjyli.vercel.app/api/wakatime?username=ericjyli&layout=compact&theme=tokyonight" />
-                            </Paragraph> */}
                             <Skills skills={skills} categories={categories} />
                         </div>
                         
                     </div>
 
                     <div id="courses">
+                        <Title className="skills-section-title"
+                                level={3}
+                                ellipsis
+                        >
+                            Selected Courses
+                        </Title>
+                    </div>
+
+                    <div id="download">
+                        <Title className="skills-section-title"
+                                level={3}
+                                ellipsis
+                        >
+                            Resume download
+                        </Title>
+                        <Paragraph>
+                            Please click <Link href="https://drive.google.com/file/d/1g_Zc7KwO7M14B5yWkbP7m5asz8uaZ5pS/view?usp=sharing">here</Link>.
+                        </Paragraph>
 
                     </div>
                 </div>
@@ -209,6 +221,16 @@ const ResumeContent = () => {
                                 key: 'resume-skills',
                                 href: '#skills',
                                 title: 'Skills'
+                            },
+                            {
+                                key: 'resume-courses',
+                                href: '#courses',
+                                title: 'Courses'
+                            },
+                            {
+                                key: 'resume-download',
+                                href: '#download',
+                                title: 'Download'
                             }
                         ]}
                     />
