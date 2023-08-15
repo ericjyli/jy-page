@@ -5,6 +5,21 @@ import { Typography, Space } from 'antd';
 const { Text, Title } = Typography;
 
 
+const TitleStyle = {
+    fontFamily: 'Helvetica',
+    fontSize: "42px"
+    
+}
+
+const TitleMediaQuery = {
+    '@media (max-width: 420px)': {
+        
+        fontSize: "32px"
+    }
+}
+
+
+
 const WelcomePage = () => {
     return(
         <div className="welcome-page">
@@ -15,9 +30,7 @@ const WelcomePage = () => {
                 <Title
                     level={1}
                     style={
-                        {
-                            fontFamily: 'Helvetica',
-                        }
+                        { ...TitleStyle, ...TitleMediaQuery}
                     }
                 >
                     Hi, I'm Junyu Li
@@ -28,6 +41,7 @@ const WelcomePage = () => {
                     style={
                         {
                             fontFamily: 'Andika',
+                            fontSize: "32px"
                         }
                     }
                 >

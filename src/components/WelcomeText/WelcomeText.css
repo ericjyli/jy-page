@@ -16,14 +16,13 @@
     display: block;
     justify-content: center;
     align-items: center;
+    align-self: center;
     max-height: 80%;
     margin: 2%;
 }
 
-@media screen and (max-width: 940px) {
 
-    
-}
+
 
 @media screen and (max-width: 720px) {
     .welcome-page {
@@ -43,4 +42,14 @@
         vertical-align: middle;
     }
 
+}
+
+@media screen and (max-width: 420px) {
+    .welcome-text h1.ant-typography  {
+        font-size: 32px !important;
+    }
+
+    .welcome-text .ant-typography {
+        font-size: 24px !important;
+    }
 }
