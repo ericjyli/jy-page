@@ -18,6 +18,7 @@ const ResumeContent = () => {
             <Title 
                 id="resume-title"
                 level={1}
+                style={{fontFamily: 'Andika'}}
             >
                     Resume
             </Title>
@@ -210,7 +211,7 @@ const ResumeContent = () => {
                                 level={2}
                                 ellipsis
                         >
-                            Resume download
+                            Resume Download
                         </Title>
                         <Paragraph>
                             Please click <Link href="https://drive.google.com/file/d/1g_Zc7KwO7M14B5yWkbP7m5asz8uaZ5pS/view?usp=sharing">here</Link>.<br />

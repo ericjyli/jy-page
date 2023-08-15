@@ -6,14 +6,13 @@ const { Text, Title } = Typography;
 
 
 const TitleStyle = {
-    fontFamily: 'Helvetica',
+    fontFamily: 'Andika',
     fontSize: "42px"
     
 }
 
 const TitleMediaQuery = {
     '@media (max-width: 420px)': {
-        
         fontSize: "32px"
     }
 }
@@ -40,7 +39,7 @@ const WelcomePage = () => {
                     strong
                     style={
                         {
-                            fontFamily: 'Andika',
+                            fontFamily: 'Helvetica',
                             fontSize: "32px"
                         }
                     }
