@@ -21,6 +21,7 @@ const ResumeContent = () => {
             >
                     Resume
             </Title>
+
             <div className="resume-main-container">
                 <div className="resume-main-content-container">
                 
