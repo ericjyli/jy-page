@@ -5,8 +5,10 @@ import CategoryButton from './CategoryButton';
 import SkillBar from './SkillBar';
 import './Skills.css';
 import { Radio } from 'antd';
-import { Link} from 'react-router-dom';
+
 import type { RadioChangeEvent } from 'antd';
+import { Typography } from 'antd';
+const { Link } = Typography;
 
 
 const onChange = (e: RadioChangeEvent) => {
@@ -88,7 +90,7 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
   return (
     <div className="skills">
       <div className="title">
-        <p>Credit to <Link to="https://github.com/mldangelo/personal-site"> mldangelo </Link>  for the beautiful template of this section.
+        <p>Credit to <Link href="https://github.com/mldangelo/personal-site"> mldangelo </Link>  for the beautiful template of this section.
         </p>
       </div>
       <div className="skill-button-container">
