@@ -1,9 +1,12 @@
 import React from 'react';
 import './ResumeContent.css';
 
+
 import { Typography, Anchor} from 'antd';
 import Skills from '../Skills/Skills';
 import { skills, categories } from '../../data/skills';
+import { courses } from '../../data/courses'
+import Course from '../Courses/Courses'
 
 const { Title, Paragraph, Text, Link} = Typography;
 
@@ -184,6 +187,16 @@ const ResumeContent = () => {
                         >
                             Selected Courses
                         </Title>
+                        <div>
+                            {courses.map((course) => (
+                                <Course
+                                    index={course.index}
+                                    name={course.name}
+                                    link={course.link}
+                                />
+                            ))}
+                        </div>
+
                     </div>
 
                     <div id="download">
@@ -197,7 +210,6 @@ const ResumeContent = () => {
                             Please click <Link href="https://drive.google.com/file/d/1g_Zc7KwO7M14B5yWkbP7m5asz8uaZ5pS/view?usp=sharing">here</Link>.<br />
                             Note that due to the page limit, the resume does not include all the experiences and projects as listed on this website.
                         </Paragraph>
-
                     </div>
                 </div>
 
