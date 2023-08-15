@@ -1,9 +1,12 @@
 import React from 'react';
 import './ResumeContent.css';
 
-import { Typography, Anchor, Image} from 'antd';
+
+import { Typography, Anchor} from 'antd';
 import Skills from '../Skills/Skills';
 import { skills, categories } from '../../data/skills';
+import { courses } from '../../data/courses'
+import Course from '../Courses/Courses'
 
 const { Title, Paragraph, Text, Link} = Typography;
 
@@ -12,13 +15,18 @@ const ResumeContent = () => {
 
     return(
         <div className="resume-container">
-            <Title id="resume-title">Resume</Title>
+            <Title 
+                id="resume-title"
+                level={1}
+            >
+                    Resume
+            </Title>
             <div className="resume-main-container">
                 <div className="resume-main-content-container">
-                    
+                
                     <div id="education">
                         <Title className="education-section-title"
-                            level={3}
+                            level={2}
                             ellipsis
                         >
                             Education
@@ -39,7 +47,7 @@ const ResumeContent = () => {
 
                     <div id="experience">
                         <Title className="experience-section-title"
-                                level={3}
+                                level={2}
                                 ellipsis
                             >
                                 Experiences
@@ -140,7 +148,7 @@ const ResumeContent = () => {
                                 level={5}
                                 ellipsis
                             >   
-                                Engineering Design of energy monitoring system for condo buildings, Engineering Team Leader
+                                Engineering Design of energy monitoring system for condo buildings - Engineering Team Leader
                             </Title>                      
                             <Paragraph>
                                 <Text>
@@ -166,25 +174,47 @@ const ResumeContent = () => {
 
                     <div id="skills">
                         <Title className="skills-section-title"
-                                level={3}
+                                level={2}
                                 ellipsis
-                            >
-                                Skills
+                        >
+                            Skills
                         </Title>
                         <div>
-                            {/* <Paragraph>
-                                <Text>
-                                    Stuffs I have been working with in the past year: <br />
-                                </Text>
-                                <Image  src="https://github-readme-stats-git-master-ericjyli.vercel.app/api/wakatime?username=ericjyli&layout=compact&theme=tokyonight" />
-                            </Paragraph> */}
                             <Skills skills={skills} categories={categories} />
                         </div>
                         
                     </div>
 
                     <div id="courses">
+                        <Title className="courses-section-title"
+                                level={2}
+                                ellipsis
+                        >
+                            Selected Courses
+                        </Title>
+                        <div>
+                            {courses.map((course) => (
+                                <Course
+                                    index={course.index}
+                                    name={course.name}
+                                    link={course.link}
+                                />
+                            ))}
+                        </div>
 
+                    </div>
+
+                    <div id="download">
+                        <Title className="download-section-title"
+                                level={2}
+                                ellipsis
+                        >
+                            Resume download
+                        </Title>
+                        <Paragraph>
+                            Please click <Link href="https://drive.google.com/file/d/1g_Zc7KwO7M14B5yWkbP7m5asz8uaZ5pS/view?usp=sharing">here</Link>.<br />
+                            Note that due to the page limit, the resume does not include all the experiences and projects as listed on this website.
+                        </Paragraph>
                     </div>
                 </div>
 
@@ -209,6 +239,16 @@ const ResumeContent = () => {
                                 key: 'resume-skills',
                                 href: '#skills',
                                 title: 'Skills'
+                            },
+                            {
+                                key: 'resume-courses',
+                                href: '#courses',
+                                title: 'Courses'
+                            },
+                            {
+                                key: 'resume-download',
+                                href: '#download',
+                                title: 'Download'
                             }
                         ]}
                     />

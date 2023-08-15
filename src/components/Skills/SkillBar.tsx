@@ -20,7 +20,6 @@ interface SkillBarProps {
 const SkillBar: React.FC<SkillBarProps> = ({ data, categories }) => {
   const { category, competency, name } = data;
 
-  // TODO: Consider averaging colors
   const titleStyle: React.CSSProperties = {
     background: categories
       .filter((cat) => category.includes(cat.name))

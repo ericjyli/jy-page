@@ -73,7 +73,7 @@ const skills: Skill[] = [
   },
   {
     name: 'Docker',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Data Engineering'],
   },
   {

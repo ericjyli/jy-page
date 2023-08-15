@@ -11,7 +11,7 @@ const WelcomePage = () => {
                 </h2>                
 
                 <div className="brief-intro">
-                    Feel free to look around and get to know more <a href="/about">about me</a>. You may also want to check out my <a href="/resume">resume</a> and <a href="/experiences">my experiences</a>.
+                    Feel free to look around and get to know more <a href="/about">about me</a>. You may also want to check out my <a href="/resume">resume</a>.
                 </div>
 
             </div>

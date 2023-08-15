@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button, Radio } from 'antd';
+import { Radio } from 'antd';
 
 interface CategoryButtonProps {
   label: string;
