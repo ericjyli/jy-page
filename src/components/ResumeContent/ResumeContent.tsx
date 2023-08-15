@@ -15,13 +15,18 @@ const ResumeContent = () => {
 
     return(
         <div className="resume-container">
-            <Title id="resume-title">Resume</Title>
+            <Title 
+                id="resume-title"
+                level={1}
+            >
+                    Resume
+            </Title>
             <div className="resume-main-container">
                 <div className="resume-main-content-container">
-                    
+                
                     <div id="education">
                         <Title className="education-section-title"
-                            level={3}
+                            level={2}
                             ellipsis
                         >
                             Education
@@ -42,7 +47,7 @@ const ResumeContent = () => {
 
                     <div id="experience">
                         <Title className="experience-section-title"
-                                level={3}
+                                level={2}
                                 ellipsis
                             >
                                 Experiences
@@ -169,7 +174,7 @@ const ResumeContent = () => {
 
                     <div id="skills">
                         <Title className="skills-section-title"
-                                level={3}
+                                level={2}
                                 ellipsis
                         >
                             Skills
@@ -181,8 +186,8 @@ const ResumeContent = () => {
                     </div>
 
                     <div id="courses">
-                        <Title className="skills-section-title"
-                                level={3}
+                        <Title className="courses-section-title"
+                                level={2}
                                 ellipsis
                         >
                             Selected Courses
@@ -200,8 +205,8 @@ const ResumeContent = () => {
                     </div>
 
                     <div id="download">
-                        <Title className="skills-section-title"
-                                level={3}
+                        <Title className="download-section-title"
+                                level={2}
                                 ellipsis
                         >
                             Resume download
