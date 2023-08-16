@@ -6,7 +6,7 @@ import { Image } from 'antd';
 
 const Alpaca = () => {
     return <Image
-        className="alpaca-photo" src={AlpacaPic} alt="alpaca">
+        src={AlpacaPic} alt="alpaca">
     </Image>
 }
 
