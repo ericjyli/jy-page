@@ -1,7 +1,4 @@
 import React from "react";
-import './About.css'
-import Alpaca from "../Alpaca/Alpaca";
-import { Anchor, Divider, Image, List } from 'antd';
 
 import final from "../pictures/final.png"
 import JayChou from "../pictures/JayChou.png"
@@ -10,6 +7,13 @@ import mayday from "../pictures/mayday.png"
 import shenhua from "../pictures/shenhua.png"
 import SIFF from "../pictures/SIFF.png"
 import ti9 from "../pictures/ti9.png"
+
+import './About.css'
+import Alpaca from "../Alpaca/Alpaca";
+import { Anchor, Divider, Image, List, Typography } from 'antd';
+
+const { Text, Title } = Typography;
+
 
 
 const about_me_data = [
@@ -50,7 +54,9 @@ const About = () => {
             <div className="Intro">
                 <div className="intro-wrapper">
                     <div id="intro">
-                        <h1 className="intro-name">
+                        <Title 
+                            level={1}
+                            className="intro-name">
             
                             <div className="english-name">
                                 Junyu (Eric) Li 
@@ -59,18 +65,18 @@ const About = () => {
                                 李骏宇
                             </div>      
         
-                        </h1>
+                        </Title>
 
                         <div id="intro-text">
                             <div className="alpaca-pic">
                                 <Alpaca />
                             </div>
-                            <div className="alpaca-text">
+                            <Text className="alpaca-text">
                                 My name is Junyu (pronounced as jyun-yu). You can also call me Eric.
                                 Besides, my friends called me "alpaca" starting from my primary school, and the nickname has been with me ever since.<br />
                                 I am currently an undergrad student majored in Electrical and Computer Engineering at University of Toronto.
             
-                            </div>
+                            </Text>
                         </div>
 
                     </div>
@@ -81,8 +87,12 @@ const About = () => {
                             About me
                         </Divider>
                         
-                        I was borned in Shanghai, China, and I have spent the majority of my life there. I started my undergrad study at University of Toronto in 2021, and I have been living in Toronto since then.
-                        I am currently a third-year student majored in Electrical and Computer Engineering. <br />
+                        <Text 
+                            style={{ fontSize: "20px"}}>
+                            I was borned in Shanghai, China, and I have spent the majority of my life there. I started my undergrad study at University of Toronto in 2021, and I have been living in Toronto since then.
+                            I am currently a third-year student majored in Electrical and Computer Engineering.
+                        </Text>
+
 
                         <h3 className="some-history">
                             Some history:
