@@ -6,15 +6,7 @@ const { Text, Title } = Typography;
 
 
 const TitleStyle = {
-    fontFamily: 'Andika',
-    fontSize: "42px"
-    
-}
-
-const TitleMediaQuery = {
-    '@media (max-width: 420px)': {
-        fontSize: "32px"
-    }
+    fontSize: "58px"
 }
 
 
@@ -29,7 +21,7 @@ const WelcomePage = () => {
                 <Title
                     level={1}
                     style={
-                        { ...TitleStyle, ...TitleMediaQuery}
+                        { ...TitleStyle}
                     }
                 >
                     Hi, I'm Junyu Li
@@ -39,8 +31,7 @@ const WelcomePage = () => {
                     strong
                     style={
                         {
-                            fontFamily: 'Helvetica',
-                            fontSize: "32px"
+                            fontSize: "16px"
                         }
                     }
                 >

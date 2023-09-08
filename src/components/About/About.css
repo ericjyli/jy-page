@@ -65,35 +65,33 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 2%;
 }
 
 .alpaca-pic {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     width: 40%;
     height: auto;
-    margin-right: 1%;
-
-
 }
 
 .alpaca-text {
-    flex: 1;
+
     color: black;
     width: 60%;
-    justify-content: center;
-    margin-left: 1%;
-    margin-right: 4%;
-    font-size: 28px;
+    align-items: left;
+    justify-content: left;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    /* margin-right: 4%; */
+    font-size: 20px;
     line-height: 1.5;
 
 }
 #about-me, #about-shanghai {
     color: black;
-    font-size: 24px;
-    line-height: 1.5;
 }
 
 

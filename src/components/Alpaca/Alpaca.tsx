@@ -5,7 +5,11 @@ import { Image } from 'antd';
 
 const Alpaca = () => {
     return <Image
-        src={AlpacaPic} alt="alpaca">
+        src={AlpacaPic} 
+        alt="alpaca"
+        width={300}
+        
+    >
     </Image>
 }
 

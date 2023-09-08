@@ -24,7 +24,7 @@
 
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
     .welcome-page {
         flex-direction: column;
     }
@@ -44,12 +44,13 @@
 
 }
 
+
 @media screen and (max-width: 420px) {
     .welcome-text h1.ant-typography  {
         font-size: 32px !important;
     }
 
     .welcome-text .ant-typography {
-        font-size: 24px !important;
+        font-size: 12px !important;
     }
 }
