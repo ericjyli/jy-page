@@ -86,6 +86,31 @@ const ResumeContent = () => {
                             </Paragraph>
                         </div>
 
+                        <div className="experience-usgas">
+                            <Title
+                                level={5}
+                                ellipsis
+                            >
+                                US Natural Gas Data Visualization Website - Project Leader
+                            </Title>
+                            <Paragraph>
+                                <Text>
+                                    A project with a group of 3 developing a website which calls several APIs for the data, and visualizes the data using tools including Pandas, Matplotlib, etc.
+                                </Text>
+                                <ul>
+                                    <li>
+                                        Engineered and executed the backend interface structures utilizing FastAPI.
+                                    </li>
+                                    <li>
+                                        Established a comprehensive system including front-end, back-end, and database server using AWS as the cloud provider, ensuring seamless functionality.
+                                    </li>
+                                    <li>
+                                        Streamlined the deployment process by setting up the server on an EC2 instance with Nginx managing the proxy. 
+                                    </li>
+                                </ul>
+                            </Paragraph>
+                        </div>
+
                         <div className="experience-map">
                             <Title
                                 level={5}
@@ -129,13 +154,10 @@ const ResumeContent = () => {
                                 </Text>
                                 <ul>
                                     <li>
-                                        Implemented backtrack algorithm to generate random solvable Sudoku games.
+                                        Implemented backtrack algorithm to generate random solvable Sudoku games and stored the data of every finished game.
                                     </li>
                                     <li>
                                         Designed a user-friendly interface with clear frames and different colors, making it very easy for the user to read the board and fill in numbers to play the game.
-                                    </li>
-                                    <li>
-                                    	Developed the functions in C language to save all past game data, kept track of the game orders even after the program is terminated and reopened.
                                     </li>
                                     <li>
                                         Updated the entire program using C++ object-oriented programming to improve the efficiency and readability of the code.
