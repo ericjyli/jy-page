@@ -140,6 +140,27 @@ const ResumeContent = () => {
                             </Paragraph>
                         </div>
 
+                        <div className="experience-processor">
+                            <Title 
+                                level={5}
+                                ellipsis
+                            >
+                                Advanced Processor Design - Hardware Developer
+                            </Title>
+                            <Paragraph>
+                                <Text>
+                                    University of Toronto, Toronto, Canada
+                                </Text>
+                                <ul>
+                                    <li>
+                                        Implemented a basic processor that can do basic register operations using Verilog.
+                                    </li>
+                                    <li>
+                                        Enhanced the processor with more advanced functionalities by including a program counter, memory interface and more operations such as push&pop, branch, and etc.
+                                    </li>
+                                </ul>
+                            </Paragraph>
+                        </div>
                         <div className="experience-sudoku">
                             <Title
                                 level={5}
