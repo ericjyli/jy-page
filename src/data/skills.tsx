@@ -23,7 +23,7 @@ const skills: Skill[] = [
   },
   {
     name: 'Bash',
-    competency: 3,
+    competency: 4,
     category: ['Tools', 'Languages'],
   },
   {
@@ -38,7 +38,7 @@ const skills: Skill[] = [
   },
   {
     name: 'MySql',
-    competency: 2,
+    competency: 4,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
@@ -63,7 +63,7 @@ const skills: Skill[] = [
   },
   {
     name: 'Kubernetes',
-    competency: 1,
+    competency: 2,
     category: ['Tools', 'Data Engineering'],
   },
   {
@@ -103,7 +103,7 @@ const skills: Skill[] = [
   },
   {
     name: 'C',
-    competency: 2,
+    competency: 4,
     category: ['Languages'],
   },
   {
