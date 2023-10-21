@@ -35,7 +35,7 @@ const ResumeContent = () => {
                         </Title>
                         <div className="education-section-content">
                             <Paragraph>
-                                B.A.Sc. Electrical and Computer Engineering + PEY
+                                Bachelor of Applied Science and Engineering in Computer Engineering + PEY Co-op
                             </Paragraph>
        
                             <Paragraph>
@@ -74,13 +74,13 @@ const ResumeContent = () => {
                                         Developed synchronous and asynchronous callback interfaces between the backend server of the website and the API bots server.
                                     </li>
                                     <li>
-                                        Drafted documentation for developers to integrate their bots on the website with additional functionalities, such as streaming response.
+                                        Drafted detailed documentation with Gitbook for developers to be able to integrate their chatbots on the website in less than 10 minutes with up to 5 additional chat functionalities.                    
                                     </li>
                                     <li>
-                                        Applied prompt engineering integrated with external tools to build several API bots.
+                                        Applied prompt engineering integrated with external tools to build more than 10 API bots, and enabled interactions between bots which amazed users.
                                     </li>
                                     <li>
-                                        Containerized the API bots with Docker and deployed them on serverless Kubernetes cluster, using Jenkins for the CI and Argo for the CD to optimize the pipeline.
+                                        Containerized the API bots with Docker and deployed them on serverless Kubernetes cluster, using Jenkins for the CI and Argo for the CD to automate the pipeline.
                                     </li>
                                 </ul>
                             </Paragraph>
@@ -99,13 +99,13 @@ const ResumeContent = () => {
                                 </Text>
                                 <ul>
                                     <li>
-                                        Engineered and executed the backend interface structures utilizing FastAPI.
+                                        Engineered and executed the backend interface structures that reduced the server's response time utilizing FastAPI.                                   
                                     </li>
                                     <li>
                                         Established a comprehensive system including front-end, back-end, and database server using AWS as the cloud provider, ensuring seamless functionality.
                                     </li>
                                     <li>
-                                        Streamlined the deployment process by setting up the server on an EC2 instance with Nginx managing the proxy. 
+                                        Streamlined smooth deployment process by setting up the server on an EC2 instance with Nginx managing the proxy and Github Action triggered by push events.
                                     </li>
                                 </ul>
                             </Paragraph>
@@ -124,16 +124,16 @@ const ResumeContent = () => {
                                 </Text>
                                 <ul>
                                     <li>
-                                        Designed optimized data structures for quick loading and storage of data from OpenStreetMap database API.
+                                        Designed optimized data structures for quick loading and storage of data from external API.
                                     </li>
                                     <li>
                                         Developed a user-friendly map application interface using the EZGL library.
                                     </li>
                                     <li>
-                                        Implemented Dijkstra's and A* algorithms for efficient path finding, generating path instructions with text-to-speech accessibility feature.
+                                        Implemented algorithms for efficient path finding within 3 seconds, and generated path instructions with text-to-speech accessibility feature.
                                     </li>
                                     <li>
-                                        Applied parallelization to optimize the solution of the Traveling Salesman Problem based on Dijkstra’s algorithm by using 2-opt, swapping, etc.
+                                        Parallelize various algorithms to optimize the solution of the Traveling Salesman Problem.
                                     </li>
                                 </ul>
                                 
@@ -181,7 +181,7 @@ const ResumeContent = () => {
                                         Designed a user-friendly interface with clear frames and different colors, making it very easy for the user to read the board and fill in numbers to play the game.
                                     </li>
                                     <li>
-                                        Updated the entire program using C++ object-oriented programming to improve the efficiency and readability of the code.
+                                        Updated the entire program using C++ object-oriented programming to improve the readability and extensibility.        
                                     </li>
                                 </ul>
                             </Paragraph>
