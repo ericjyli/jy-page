@@ -63,7 +63,6 @@ const ResumeContent = () => {
                             </Title>
                             <Paragraph>
                                 <Text>
-                                    Baixing.AI, Shanghai, China<br />
                                     Main project: <Link href="https://www.navit.ai">Navit.ai</Link> <br />
                                     Navit is a platform for exploring various types of bots. It offers users easy access to these intriguing bots and provides developers with the convenience of integrating their API Bots into the platform.
 
