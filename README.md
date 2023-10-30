@@ -1,1 +1,1 @@
-# My personal website reachable at https://ericjyli.com
+My personal website at https://www.ericjyli.com
