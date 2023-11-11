@@ -27,11 +27,6 @@ const skills: Skill[] = [
     category: ['Tools', 'Languages'],
   },
   {
-    name: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
-  {
     name: 'ElasticSearch',
     competency: 1,
     category: ['Web Development', 'Databases'],
@@ -68,7 +63,7 @@ const skills: Skill[] = [
   },
   {
     name: 'AWS',
-    competency: 3,
+    competency: 4,
     category: ['Tools', 'Web Development'],
   },
   {
