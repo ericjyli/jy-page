@@ -140,6 +140,21 @@ const skills: Skill[] = [
       name: 'Prompt Engineering',
       competency: 4,
       category: ['Python', 'Tools']
+  },
+  {
+    name: 'Racket',
+    competency: 3,
+    category: ['Languages']
+  },
+  {
+    name: 'Haskell',
+    competency: 2,
+    category: ['Languages']
+  },
+  {
+    name: 'Prolog',
+    competency: 2,
+    category: ['Languages']
   }
   
 
