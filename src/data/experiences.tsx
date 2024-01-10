@@ -30,13 +30,14 @@ const experiences: ExperienceProps[] = [
         title: 'US Natural Gas Data Visualization Website - Project Leader',
         overview: (
             <>
-                A project with a group of 3 developing a website which calls several APIs for the data, and visualizes the data using tools including Pandas, Matplotlib, etc.
+                A project with a group of 3 developing a website which calls several APIs for the data, and visualizes the data using tools including Pandas, Matplotlib, etc. <br/>
+                <Link href="https://usnaturalgas.ericjyli.com"> usnaturalgas.ericjyli.com </Link>
             </>
         ),
         description: [
-                'Engineered and executed the backend interface structures that reduced the server\'s response time utilizing FastAPI.',
-                'Established a comprehensive system including front-end, back-end, and database server using AWS as the cloud provider, ensuring seamless functionality.',
-                'Streamlined smooth deployment process by setting up the server on an EC2 instance with Nginx managing the proxy and Github Action triggered by push events.'
+                'Established a comprehensive system including front-end, back-end, and database server using AWS Amplifier, EC2, and RDS with CI/CD and automatic data updates.',
+                'Engineered and executed the backend interface structures utilizing FastAPI.',
+                'Configured Nginx to proxy HTTPS requests and redirect HTTP requests.'
         ]
     },
     {
