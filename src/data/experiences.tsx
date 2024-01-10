@@ -30,7 +30,8 @@ const experiences: ExperienceProps[] = [
         title: 'US Natural Gas Data Visualization Website - Project Leader',
         overview: (
             <>
-                A project with a group of 3 developing a website which calls several APIs for the data, and visualizes the data using tools including Pandas, Matplotlib, etc.
+                A project with a group of 3 developing a website which calls several APIs for the data, and visualizes the data using tools including Pandas, Matplotlib, etc. <br/>
+                <Link href="https://usnaturalgas.ericjyli.com"> usnaturalgas.ericjyli.com </Link>
             </>
         ),
         description: [
