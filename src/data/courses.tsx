@@ -1,10 +1,10 @@
-interface course {
+interface Course {
     index: string;
     name: string;
     link: string;
 }
 
-const courses: course[] = [
+const courses: Course[] = [
     {
         index: 'ECE241',
         name: 'Digital Systems',
