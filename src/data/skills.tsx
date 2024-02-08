@@ -74,7 +74,7 @@ const skills: Skill[] = [
   {
     name: 'Numpy',
     competency: 3,
-    category: ['Data Engineering', 'Python'],
+    category: ['Data Engineering', 'Python', 'Machine Learning'],
   },
   {
     name: 'Typescript',
@@ -89,17 +89,12 @@ const skills: Skill[] = [
   {
     name: 'Python',
     competency: 5,
-    category: ['Languages', 'Python'],
+    category: ['Languages', 'Python', 'Machine Learning'],
   },
   {
-    name: 'C++',
+    name: 'C/C++',
     competency: 4,
-    category: ['Languages'],
-  },
-  {
-    name: 'C',
-    competency: 4,
-    category: ['Languages'],
+    category: ['Languages', 'Hardware Design & Simulation'],
   },
   {
     name: 'MATLAB',
@@ -114,17 +109,17 @@ const skills: Skill[] = [
   {
       name: 'Verilog',
       competency: 4,
-      category: ['Languages', 'Hardware Design']
+      category: ['Languages', 'Hardware Design & Simulation']
   },
   {
       name: 'Intel Quartus',
       competency: 2,
-      category: ['Hardware Design', 'Tools']
+      category: ['Hardware Design & Simulation', 'Tools']
   },
   {
       name: 'Modelsim',
       competency: 3,
-      category: ['Hardware Design', 'Tools']
+      category: ['Hardware Design & Simulation', 'Tools']
   },
   {
       name: 'Dart',
@@ -155,6 +150,11 @@ const skills: Skill[] = [
     name: 'Prolog',
     competency: 2,
     category: ['Languages']
+  },
+  {
+    name:'scikit-learn',
+    competency: 3,
+    category: ['Python', 'Machine Learning']
   }
   
 
@@ -177,16 +177,6 @@ const skills: Skill[] = [
     '#64cb7b',
   ];
   
-  // const categories = [
-  //   ...new Set(skills.flatMap(({ category }) => category)),
-  // ].sort().map((category, index) => ({
-  //   name: category,
-  //   color: colors[index],
-  // }));
-  
-  // export { categories, skills };
-
-
 interface Category {
   name: string;
   color: string;
