@@ -24,10 +24,6 @@ const ContactIcons = () => {
                 <FontAwesomeIcon icon={faDiscord} />
             </a>
 
-            <a className="twitter-icon" href="https://twitter.com/JYL316">
-                <FontAwesomeIcon icon={faTwitter} />
-            </a>
-
             <a className="email-icon" href="mailto:ericli.jy@outlook.com">
                 <FontAwesomeIcon icon={faEnvelope} />
             </a>
