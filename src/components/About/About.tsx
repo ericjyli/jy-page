@@ -28,7 +28,7 @@ const about_me_data = [
 
 const hobbies_data = [
     "Football (not the American one)",
-    "<Music",
+    "Music",
     "Dota 2",
     "Reading",
     "Movies",
