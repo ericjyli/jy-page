@@ -89,10 +89,6 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
 
   return (
     <div className="skills">
-      <div className="title">
-        <p>Credit to <Link href="https://github.com/mldangelo/personal-site"> mldangelo </Link>  for the beautiful template of this section.
-        </p>
-      </div>
       <div className="skill-button-container">
         <Radio.Group onChange={onChange}>
             {getButtons()}

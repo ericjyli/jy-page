@@ -13,7 +13,7 @@ const ContactIcons = () => {
             <a className="github-icon" href="https://github.com/ericjyli">
                 <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a className="linkedin-icon" href="https://www.linkedin.com/in/junyu-li-1742421ba/">
+            <a className="linkedin-icon" href="https://www.linkedin.com/in/junyu-li3/">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a className="instagram-icon" href="https://www.instagram.com/ericli0016/">
