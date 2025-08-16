@@ -10,9 +10,25 @@ interface ExperienceProps {
 
 const experiences: ExperienceProps[] = [
     {
+        title: 'Qualcomm - Display Engineer',
+        overview: (
+            <>
+            <i>Markham, Canada</i>
+            </>
+        ),
+        description: [
+            'Designed and maintained analyzers to visualize hardware event logs and register dumps, enabling efficient debugging of customer-reported issues.',
+            'Conducted system-level debug of hardware/software issues involving the display processor and interfaces, leveraging hardware design and programming documentation.',
+            'Developed object-oriented infrastructure to automate register and sequence validation checks, significantly accelerating the debugging workflow.',
+            'Implemented and validated software sequences on post-silicon development platforms to ensure functional correctness.',
+            'Improved issue tracking and documentation by integrating advanced search, formatting, and LLM query features using JavaScript and Python, with Markdown for seamless usability.'
+        ]
+    },
+    {
         title: 'Baixing AI - Full Stack Engineer',
         overview: (
             <>
+            <i>Shanghai, China</i><br/>
             Main project: <Link href="https://www.navit.ai">Navit.ai</Link> <br />
                                     Navit is a platform for exploring various types of bots. It offers users easy access to these intriguing bots and provides developers with the convenience of integrating their API Bots into the platform.            
             </>
@@ -44,7 +60,7 @@ const experiences: ExperienceProps[] = [
         title: 'Map Application - Software Engineer',
         overview: (
             <>
-                University of Toronto, Toronto, Canada
+                <i>University of Toronto, Toronto, Canada</i>
             </>
         ),
         description: [
@@ -58,7 +74,7 @@ const experiences: ExperienceProps[] = [
         title: 'Advanced Processor Design - Hardware Developer',
         overview: (
             <>
-                University of Toronto, Toronto, Canada
+                <i>University of Toronto, Toronto, Canada</i>
             </>
         ),
         description: [
@@ -70,7 +86,7 @@ const experiences: ExperienceProps[] = [
         title: 'Sudoku Game - Software Developer',
         overview: (
             <>
-                University of Toronto, Toronto, Canada
+                <i>University of Toronto, Toronto, Canada</i>
             </>
         ),
         description: [
@@ -83,7 +99,7 @@ const experiences: ExperienceProps[] = [
         title: 'Engineering Design of energy monitoring system for condo buildings - Engineering Team Leader',
         overview: (
             <>
-                University of Toronto, Toronto, Canada
+                <i>University of Toronto, Toronto, Canada</i>
             </>
         ),
         description: [

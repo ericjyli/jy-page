@@ -20,7 +20,6 @@ const ResumeContent = () => {
             <Title 
                 id="resume-title"
                 level={1}
-                style={{fontFamily: 'Andika'}}
             >
                     Resume
             </Title>
@@ -41,7 +40,7 @@ const ResumeContent = () => {
                             </Paragraph>
        
                             <Paragraph>
-                                <Link href="https://www.engineering.utoronto.ca/">
+                                <Link href="https://www.ece.utoronto.ca/">
                                 University of Toronto
                                 </Link>
                                 , 2026 (expected)
