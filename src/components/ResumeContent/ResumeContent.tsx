@@ -109,7 +109,6 @@ const ResumeContent = () => {
                         </Title>
                         <Paragraph>
                             Please click <Link href="https://drive.google.com/file/d/1Kc92KtOWa-WdSRBQqvYCDpj7lC6HOqFA/view?usp=sharing">here</Link>.<br />
-                            Note that due to the page limit, the resume does not include all the experiences and projects as listed on this website.
                         </Paragraph>
                     </div>
                 </div>
