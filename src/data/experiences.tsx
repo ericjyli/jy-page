@@ -17,10 +17,10 @@ const experiences: ExperienceProps[] = [
             </>
         ),
         description: [
-            'Designed and maintained analyzers to visualize hardware event logs and register dumps, enabling efficient debugging of customer-reported issues.',
+            'Designed and maintained analyzers in C++ and Python to visualize hardware event logs and register dumps, enabling efficient debugging of customer-reported issues.',
             'Conducted system-level debug of hardware/software issues involving the display processor and interfaces, leveraging hardware design and programming documentation.',
-            'Developed object-oriented infrastructure to automate register and sequence validation checks, significantly accelerating the debugging workflow.',
-            'Implemented and validated software sequences on post-silicon development platforms to ensure functional correctness.',
+            'Developed object-oriented infrastructure in C++ to automate register and sequence validation checks, significantly accelerating the debugging workflow.',
+            'Implemented and validated software sequences using C and C++ on post-silicon development platforms to ensure functional correctness.',
             'Improved issue tracking and documentation by integrating advanced search, formatting, and LLM query features using JavaScript and Python, with Markdown for seamless usability.'
         ]
     },
